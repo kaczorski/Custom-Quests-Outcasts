@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+  <PawnKindDef>
+    <defName>Outcast_ZDreamer</defName>
+    <label>obsessed builder</label>
+	<race>Human</race>
+<!-- 	<backstoryFiltersOverride>
+	    <li>
+	        </categories>
+	        <li>Outlander</li>
+            <li>Tribal</li>
+	        </categories>
+	    </li>
+    </backstoryFiltersOverride> -->
+    <combatPower>45</combatPower>
+    <itemQuality>Poor</itemQuality>
+    <minGenerationAge>30</minGenerationAge>
+	<maxGenerationAge>50</maxGenerationAge>
+    <isFighter>false</isFighter>
+    <gearHealthRange>0.5~2.0</gearHealthRange>
+	<apparelTags>
+        <li>IndustrialBasic</li>
+    </apparelTags>
+    <weaponTags>
+	    <li>NeolithicMeleeDestructive</li>
+    </weaponTags>
+    <weaponMoney>300~400</weaponMoney>
+    <apparelMoney>200~500</apparelMoney>
+    <apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
+	<requiredWorkTags>
+        <li>ManualDumb</li> 
+    	<li>ManualSkilled</li>
+        <li>Mining</li>
+      <li>Violent</li>	  
+    </requiredWorkTags>
+	<disallowedTraits>		
+		<li>Cannibal</li>
+		<li>Wimp</li>
+		<li>Gourmand</li>
+    </disallowedTraits>
+    <disallowedTraitsWithDegree>
+        <Industriousness>-2</Industriousness>
+    </disallowedTraitsWithDegree>
+	<skills>
+	    <li>
+           <skill>Melee</skill>
+           <range>10~14</range>
+        </li>
+        <li>
+           <skill>Construction</skill>
+           <range>10~14</range>
+        </li>
+        <li>
+           <skill>Mining</skill>
+           <range>10~14</range>
+        </li>
+    </skills>
+    <initialWillRange>1~5</initialWillRange>
+    <initialResistanceRange>1~17</initialResistanceRange>
+  </PawnKindDef>
+
+</Defs>
