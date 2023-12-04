@@ -1,5 +1,5 @@
 # Custom Quests: Outcasts
-Rimworld + Dialogs = Story
+**Rimworld + Dialogs = Story**
 
 ToDo:
 - [ ] do the PawnKind properly, create Base for Outcasts;
