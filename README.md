@@ -1,2 +1,2 @@
-# Custom-Quests-Outcasts
+# Custom Quests: Outcasts
 Rimworld + Dialogs = Story
