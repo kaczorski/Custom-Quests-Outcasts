@@ -1,6 +1,6 @@
 # Custom Quests: Outcasts
 **Rimworld + Dialogs = Story**
-https://docs.google.com/document/d/1QO50EwJ9FUI3FxHBxKowBkidPd9Cov5GzEyvC7XTpuo/edit?usp=sharing (about designing dialog and interactions)
+<br>https://docs.google.com/document/d/1QO50EwJ9FUI3FxHBxKowBkidPd9Cov5GzEyvC7XTpuo/edit?usp=sharing (about designing dialog and interactions)
 
 ToDo:
 - [ ] do the PawnKind properly, create Base for Outcasts;
