@@ -8,5 +8,5 @@ ToDo:
 - [ ] add an interaction with survival meal;
 - [ ] add more dirt around the house;
 - [ ] work out how to make quest spawn only once;
-
+- [ ] add hostile "response" to destroying walls/ stealing meal;
 - [ ] write another dialog!
