@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ThoughtDef>
+        <defName>CQ_ZDreamerAwake</defName>
+        <workerClass>ThoughtWorker_Hediff</workerClass>
+        <hediff>CQ_ZDreamerAwake</hediff>
+        <validWhileDespawned>true</validWhileDespawned>
+        <!-- <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter> -->
+        <stages>
+            <li>
+                <label>full of gratitude</label>
+                <description>I was given a second chance and I'm not going to waste it.</description>
+                <baseMoodEffect>6</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+</Defs>
