@@ -11,4 +11,5 @@ ToDo:
 - [ ] add more dirt around the house;
 - [ ] work out how to make quest spawn only once;
 - [ ] add hostile "response" to destroying walls/ stealing meal;
+- [ ] add a debug version to read in the crapper;
 - [ ] write another dialog!
