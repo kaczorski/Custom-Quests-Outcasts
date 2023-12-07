@@ -7,7 +7,8 @@ ToDo:
 - [x] add custom backstories, about 3 + 3, so there's bit of randomness but at the same time character's story is not all over the place;
 - [ ] pawn spawning with synthread or hyperweave. Sort it out.
 - [x] add Z Level (make terrain);
-- [ ] add Z hediffs, setup object in Z Level to interact with;
+- [ ] add Z hediffs and dialog for Z;
+- [x] setup object in Z Level to interact with;
 - [x] add more dirt around the house;
 - [ ] work out how to make quest spawn only once;
 - [ ] add hostile "response" to destroying walls;
