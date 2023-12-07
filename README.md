@@ -8,8 +8,8 @@ ToDo:
 - [ ] pawn spawning with synthread or hyperweave. Sort it out.
 - [ ] add Z Level (make terrain, 2 hediffs);
 - [ ] add an interaction with survival meal;
-- [ ] add more dirt around the house;
+- [x] add more dirt around the house;
 - [ ] work out how to make quest spawn only once;
 - [ ] add hostile "response" to destroying walls/ stealing meal;
-- [ ] add a debug version to read in the crapper;
+- [ ] add a dialog version to read in the crapper;
 - [ ] write another dialog!
