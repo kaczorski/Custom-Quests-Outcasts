@@ -7,7 +7,6 @@ ToDo:
 - [x] add custom backstories, about 3 + 3, so there's bit of randomness but at the same time character's story is not all over the place;
 - [ ] pawn spawning with synthread or hyperweave. Sort it out.
 - [ ] add Z Level (make terrain, 2 hediffs);
-- [ ] add an interaction with survival meal;
 - [x] add more dirt around the house;
 - [ ] work out how to make quest spawn only once;
 - [ ] add hostile "response" to destroying walls/ stealing meal;
