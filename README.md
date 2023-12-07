@@ -6,9 +6,10 @@ ToDo:
 - [x] do the PawnKind properly, create Base for Outcasts;
 - [x] add custom backstories, about 3 + 3, so there's bit of randomness but at the same time character's story is not all over the place;
 - [ ] pawn spawning with synthread or hyperweave. Sort it out.
-- [ ] add Z Level (make terrain, 2 hediffs);
+- [x] add Z Level (make terrain);
+- [ ] add Z hediffs, setup object in Z Level to interact with;
 - [x] add more dirt around the house;
 - [ ] work out how to make quest spawn only once;
-- [ ] add hostile "response" to destroying walls/ stealing meal;
-- [ ] add a dialog version to read in the crapper;
+- [ ] add hostile "response" to destroying walls;
+- [x] add a dialog version to read in the crapper;
 - [ ] write another dialog!
