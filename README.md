@@ -15,7 +15,7 @@ ToDo:
 - [ ] work out how to make quest spawn only once;
 - [ ] add hostile "response" to destroying walls, rewrite dialog to match;
 - [x] rewrite bit about survival meal;
-- [ ] rewrite bit about z level, foreshadow action unlocked by hediff;
+- [x] rewrite bit about z level, foreshadow action unlocked by hediff;
 - [ ] write bit with z-vertigo;
 - [ ] remove "visible if not available" in conditions;
 - [ ] add generated messages when important changes take place: ZDreamer hostile, recruited, entering place beyond, rep gained.
