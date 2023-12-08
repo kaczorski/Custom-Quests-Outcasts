@@ -5,7 +5,7 @@
 ToDo:
 - [x] do the PawnKind properly, create Base for Outcasts;
 - [x] add custom backstories, about 3 + 3, so there's bit of randomness but at the same time character's story is not all over the place;
-- [ ] pawn spawning with synthread or hyperweave. Solution: create custom faction.
+- [x] pawn spawning with synthread or hyperweave. Solution: create custom faction.
 - [x] add Z Level (make terrain);
 - [ ] add Z hediffs, thoughts and dialog for Z;
 - [ ] remove "remove dialog manager" in loops;
