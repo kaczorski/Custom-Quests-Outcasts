@@ -7,7 +7,7 @@ ToDo:
 - [x] add custom backstories, about 3 + 3, so there's bit of randomness but at the same time character's story is not all over the place;
 - [ ] pawn spawning with synthread or hyperweave. Solution: create custom faction.
 - [x] add Z Level (make terrain);
-- [ ] add Z hediffs and dialog for Z;
+- [ ] add Z hediffs, thoughts and dialog for Z;
 - [ ] remove "remove dialog manager" in loops;
 - [x] setup object in Z Level to interact with;
 - [x] add more dirt around the house;
