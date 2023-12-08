@@ -13,5 +13,6 @@ ToDo:
 - [x] work out how to send signal to destroy Z Level entrance. Done!
 - [ ] work out how to make quest spawn only once;
 - [ ] add hostile "response" to destroying walls, rewrite dialog to match;
+- [ ] add generated messages when important changes take place: ZDreamer hostile, recruited, entering place beyond, rep gained.
 - [x] add a dialog version to read in the crapper;
 - [ ] write another dialog!
