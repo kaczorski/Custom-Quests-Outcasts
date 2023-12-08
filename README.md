@@ -16,6 +16,8 @@ ToDo:
 - [ ] add hostile "response" to destroying walls, rewrite dialog to match;
 - [x] rewrite bit about survival meal;
 - [ ] rewrite bit about z level, foreshadow action unlocked by hediff;
+- [ ] write bit with z-vertigo;
+- [ ] remove "visible if not available" in conditions;
 - [ ] add generated messages when important changes take place: ZDreamer hostile, recruited, entering place beyond, rep gained.
 - [x] add a dialog version to read in the crapper;
 - [ ] write another dialog!
