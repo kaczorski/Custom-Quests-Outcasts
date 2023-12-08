@@ -8,6 +8,7 @@ ToDo:
 - [ ] pawn spawning with synthread or hyperweave. Sort it out.
 - [x] add Z Level (make terrain);
 - [ ] add Z hediffs and dialog for Z;
+- [ ] remove "remove dialog manager" in loops;
 - [x] setup object in Z Level to interact with;
 - [x] add more dirt around the house;
 - [x] work out how to send signal to destroy Z Level entrance. Done!
