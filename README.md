@@ -13,6 +13,5 @@ ToDo:
 - [ ] work out how to send signal to destroy Z Level entrance;
 - [ ] work out how to make quest spawn only once;
 - [ ] add hostile "response" to destroying walls, rewrite dialog to match;
-- [ ] check XML extensions and adding a setting for triggering Outcasts as unwavering;
 - [x] add a dialog version to read in the crapper;
 - [ ] write another dialog!
