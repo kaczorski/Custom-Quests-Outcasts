@@ -10,7 +10,7 @@ ToDo:
 - [ ] add Z hediffs and dialog for Z;
 - [x] setup object in Z Level to interact with;
 - [x] add more dirt around the house;
-- [ ] work out how to send signal to destroy Z Level entrance;
+- [x] work out how to send signal to destroy Z Level entrance. Done!
 - [ ] work out how to make quest spawn only once;
 - [ ] add hostile "response" to destroying walls, rewrite dialog to match;
 - [x] add a dialog version to read in the crapper;
