@@ -17,6 +17,7 @@ ToDo:
 - [x] rewrite bit about survival meal;
 - [x] rewrite bit about z level, foreshadow action unlocked by hediff;
 - [ ] write bit with z-vertigo;
+- [ ] redo strange walls to be destructible and deconstructible;
 - [ ] remove "visible if not available" in conditions;
 - [ ] add generated messages when important changes take place: ZDreamer hostile, recruited, entering place beyond, rep gained.
 - [x] add a dialog version to read in the crapper;
