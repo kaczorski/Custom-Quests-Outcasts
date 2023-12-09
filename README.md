@@ -13,7 +13,7 @@ ToDo:
 - [x] add more dirt around the house;
 - [x] work out how to send signal to destroy Z Level entrance. Done!
 - [ ] work out how to make quest spawn only once;
-- [ ] add hostile response to destroying walls! Use VE damagedef!
+- [ ] add hostile response to destroying walls;
 - [x] rewrite bit about survival meal;
 - [x] rewrite bit about z level, foreshadow action unlocked by hediff;
 - [ ] write bit with z-vertigo;
