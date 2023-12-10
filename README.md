@@ -8,7 +8,6 @@ ToDo:
 - [x] pawn spawning with synthread or hyperweave. Solution: create custom faction.
 - [x] add Z Level (make terrain);
 - [ ] add Z hediffs, thoughts and dialog for Z;
-- [ ] remove "remove dialog manager" in loops;
 - [x] setup object in Z Level to interact with;
 - [x] add more dirt around the house;
 - [x] work out how to send signal to destroy Z Level entrance. Done!
@@ -16,7 +15,6 @@ ToDo:
 - [ ] add hostile response to destroying walls;
 - [x] rewrite bit about survival meal;
 - [x] rewrite bit about z level, foreshadow action unlocked by hediff;
-- [ ] work out why ancients are raiding in a few days?!
 - [ ] write bit with z-vertigo;
 - [x] redo strange walls to be destructible and deconstructible;
 - [ ] remove "visible if not available" in conditions;
