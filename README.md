@@ -11,7 +11,7 @@ ToDo:
 - [x] setup object in Z Level to interact with;
 - [x] add more dirt around the house;
 - [x] work out how to send signal to destroy Z Level entrance. Done!
-- [ ] work out how to make quest spawn only once;
+- [x] work out how to make quest spawn only once;
 - [x] add hostile response to destroying walls;
 - [x] rewrite bit about survival meal;
 - [x] rewrite bit about z level, foreshadow action unlocked by hediff;
@@ -21,5 +21,6 @@ ToDo:
 - [ ] add generated messages when important changes take place: ZDreamer hostile, recruited, entering place beyond, rep gained.
 - [x] add a dialog version to read in the crapper;
 - [x] check CQF for typos, edit Survivor;
+- [ ] work out how to make quest end :D;
 - [ ] work out why cannot load my custom maps;
 - [ ] write another dialog!
