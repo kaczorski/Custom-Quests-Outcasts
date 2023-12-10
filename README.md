@@ -12,12 +12,12 @@ ToDo:
 - [x] add more dirt around the house;
 - [x] work out how to send signal to destroy Z Level entrance. Done!
 - [ ] work out how to make quest spawn only once;
-- [ ] add hostile response to destroying walls;
+- [x] add hostile response to destroying walls;
 - [x] rewrite bit about survival meal;
 - [x] rewrite bit about z level, foreshadow action unlocked by hediff;
 - [ ] write bit with z-vertigo;
 - [x] redo strange walls to be destructible and deconstructible;
-- [ ] remove "visible if not available" in conditions;
+- [x] remove "visible if not available" in conditions;
 - [ ] add generated messages when important changes take place: ZDreamer hostile, recruited, entering place beyond, rep gained.
 - [x] add a dialog version to read in the crapper;
 - [x] check CQF for typos, edit Survivor;
