@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+	
+	<HediffDef>
+        <defName>CQ_Wallbreaker_ZDreamer</defName>
+        <hediffClass>Hediff_High</hediffClass>
+        <label>wallbreaker</label>    
+        <defaultLabelColor>(1.0, 0.87, 0.0)</defaultLabelColor>
+		<description>A strange wall went down. There might be consequences.</description>
+        <initialSeverity>1</initialSeverity>
+		<maxSeverity>1</maxSeverity>
+        <isBad>false</isBad>
+        <comps>
+            <li Class="VFECore.HediffCompProperties_Spreadable">
+                <radiusToSpread>250</radiusToSpread>
+				<!-- meaning severity given to x when infecting x -->
+                <severityToInfect>1</severityToInfect>
+                <baseDiseaseContractChance>1</baseDiseaseContractChance>
+                <spreadingTickInterval>50~60</spreadingTickInterval>
+                <socialInteractionTransmissionChance>1</socialInteractionTransmissionChance>
+                <requiresLineOfSightToSpread>false</requiresLineOfSightToSpread>
+	        	<speciesCanCatch>
+	           		<li>Humanlike</li>
+	        	</speciesCanCatch>
+            </li>
+            <li Class="HediffCompProperties_Immunizable">
+                <!-- <severityPerDayNotImmune>-0.01</severityPerDayNotImmune> -->
+        <immunityPerDaySick>5</immunityPerDaySick>
+        <severityPerDayImmune>-100</severityPerDayImmune>
+        <!-- <immunityPerDayNotSick>-0.02</immunityPerDayNotSick> -->
+            </li>
+        </comps>
+        <stages>
+            <li>
+			    <!-- <becomeVisible>false</becomeVisible> -->
+            </li>
+        </stages>
+    </HediffDef>
+	
+</Defs>  

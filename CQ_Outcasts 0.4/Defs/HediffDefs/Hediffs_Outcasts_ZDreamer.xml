@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+    <HediffDef>
+        <defName>CQ_ZDreamerDreams</defName>
+        <hediffClass>Hediff_High</hediffClass>		
+        <label>dreamer dreams on</label>
+		<labelNoun>permanent state of mind</labelNoun>
+        <description>Obsessed builder has embraced their failures. Bursting with amazing insights, they are ready to prove their worth.</description>
+        <defaultLabelColor>(0.5,0.3,0.7)</defaultLabelColor>
+		<maxSeverity>1.0</maxSeverity>
+        <isBad>false</isBad>
+        <stages>
+            <li>
+                <capMods>
+                    <li>
+                        <capacity>Consciousness</capacity>
+                        <offset>0.15</offset>
+                    </li>
+                    <li>
+                        <capacity>Moving</capacity>
+                        <offset>0.05</offset>
+                    </li>					
+                </capMods>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <HediffDef>
+        <defName>CQ_ZDreamerAwake</defName>
+        <hediffClass>Hediff_High</hediffClass>
+        <label>dreamer is awake</label>
+		<labelNoun>permanent state of mind</labelNoun>
+        <description>Obsessed builder has left their failures behind. Bursting with gratitude, they are ready to prove their worth.</description>      
+        <defaultLabelColor>(0.5,0.3,0.7)</defaultLabelColor>
+		<maxSeverity>1.0</maxSeverity>
+        <isBad>false</isBad>
+		<stages>
+            <li>
+                <capMods>
+                    <li>
+                    <capacity>Moving</capacity>
+                    <offset>0.05</offset>
+                    </li>
+                </capMods>
+            </li>
+        </stages>
+    </HediffDef>
+	
+	<HediffDef>
+        <defName>CQ_ZDreamerVertigo</defName>
+        <hediffClass>Hediff_High</hediffClass>
+        <label>Z vertigo</label>
+		<labelNoun>temporary state of mind</labelNoun>
+        <description>.</description>      
+        <defaultLabelColor>(0.5,0.3,0.7)</defaultLabelColor>
+		<maxSeverity>1.0</maxSeverity>
+        <isBad>true</isBad>
+		    <comps>
+            <li Class="HediffCompProperties_SeverityPerDay">
+                <severityPerDay>-0.75</severityPerDay>
+                <showHoursToRecover>true</showHoursToRecover>
+            </li>
+        </comps>
+		<stages>
+            <li>
+                <capMods>
+                    <li>
+                    <capacity>Moving</capacity>
+                    <offset>0.05</offset>
+                    </li>
+                </capMods>
+            </li>
+        </stages>
+    </HediffDef>
+
+<!-- z vertigo
+z wonder -->
+
+</Defs>  
