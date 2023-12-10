@@ -23,4 +23,5 @@ ToDo:
 - [ ] add generated messages when important changes take place: ZDreamer hostile, recruited, entering place beyond, rep gained.
 - [x] add a dialog version to read in the crapper;
 - [x] check CQF for typos, edit Survivor;
+- [ ] work out why cannot load my custom maps;
 - [ ] write another dialog!
