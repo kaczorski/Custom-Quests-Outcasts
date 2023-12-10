@@ -21,5 +21,5 @@ ToDo:
 - [ ] remove "visible if not available" in conditions;
 - [ ] add generated messages when important changes take place: ZDreamer hostile, recruited, entering place beyond, rep gained.
 - [x] add a dialog version to read in the crapper;
-- [ ] check CQF for typos, rewrite Survivor;
+- [x] check CQF for typos, edit Survivor;
 - [ ] write another dialog!
