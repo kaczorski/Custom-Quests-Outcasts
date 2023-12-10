@@ -16,6 +16,7 @@ ToDo:
 - [ ] add hostile response to destroying walls;
 - [x] rewrite bit about survival meal;
 - [x] rewrite bit about z level, foreshadow action unlocked by hediff;
+- [ ] work out why ancients are raiding in a few days?!
 - [ ] write bit with z-vertigo;
 - [x] redo strange walls to be destructible and deconstructible;
 - [ ] remove "visible if not available" in conditions;
