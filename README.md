@@ -19,7 +19,7 @@ ToDo:
 - [ ] write bit with z-vertigo;
 - [x] redo strange walls to be destructible and deconstructible;
 - [x] remove "visible if not available" in conditions;
-- [ ] add generated messages when important changes take place: ZDreamer hostile, recruited, entering place beyond, rep gained.
+- [x] add generated messages when important changes take place: ZDreamer hostile, recruited, etc. Wallbreaker - would spam with messages.
 - [ ] make sure signals are working (spot.destroyed);
 - [x] add a dialog version to read in the crapper;
 - [x] check CQF for typos, edit Survivor;
