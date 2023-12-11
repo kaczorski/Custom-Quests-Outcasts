@@ -16,7 +16,6 @@ ToDo:
 - [x] add hostile response to destroying walls;
 - [x] rewrite bit about survival meal;
 - [x] rewrite bit about z level, foreshadow action unlocked by hediff;
-- [ ] write bit with z-vertigo;
 - [x] redo strange walls to be destructible and deconstructible;
 - [x] remove "visible if not available" in conditions;
 - [x] add generated messages when important changes take place: ZDreamer hostile, recruited, etc. Wallbreaker - would spam with messages.
@@ -25,5 +24,8 @@ ToDo:
 - [x] check CQF for typos, edit Survivor;
 - [x] work out how to make quest end :D;
 - [x] work out why cannot load my custom maps;
+- [ ] write bit with z-vertigo;
+- [ ] dimensional anomaly;
+- [ ] message on entering Z Level (signal on gen?)
 - [ ] playtest!
 - [ ] write another dialog!
