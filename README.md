@@ -22,5 +22,5 @@ ToDo:
 - [x] add a dialog version to read in the crapper;
 - [x] check CQF for typos, edit Survivor;
 - [x] work out how to make quest end :D;
-- [ ] work out why cannot load my custom maps;
+- [x] work out why cannot load my custom maps;
 - [ ] write another dialog!
