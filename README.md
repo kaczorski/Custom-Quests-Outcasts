@@ -29,5 +29,6 @@ ToDo:
 - [ ] message on entering Z Level (signal on gen?)
 - [ ] missing two massive text nodes!
 - [ ] ZDreamer not attacking. Create a custom hediff to give them berserk?
+- [ ] signals not working;
 - [ ] playtest!
 - [ ] write another dialog!
