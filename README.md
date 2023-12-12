@@ -28,6 +28,7 @@ ToDo:
 - [ ] dimensional anomaly;
 - [ ] message on entering Z Level (signal on gen?)
 - [ ] missing two massive text nodes!
+- [ ] Wallbreaker: give option to retreat;
 - [ ] ZDreamer not attacking. Create a custom hediff to give them berserk?
 - [ ] rat bonus dialog
 - [ ] signals not working;
