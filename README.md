@@ -27,5 +27,6 @@ ToDo:
 - [ ] write bit with z-vertigo;
 - [ ] dimensional anomaly;
 - [ ] message on entering Z Level (signal on gen?)
+- [ ] ZDreamer not attacking. Create a custom hediff to give them berserk?
 - [ ] playtest!
 - [ ] write another dialog!
