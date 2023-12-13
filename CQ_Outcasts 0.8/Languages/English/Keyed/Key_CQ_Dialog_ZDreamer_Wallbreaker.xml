@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+<Aggro_ZDreamer>The outcast grips {Interviewee_possessive} massive uranium breach axe so tightly {Interviewee_possessive} fists are shaking. {Interviewee_possessive} eyes burn with unbridled rage.
+\n\n"What kind of person are you?!" {Interviewee_pronoun} yells in your face. "You destroy my life's work and you think I have anything to say to you?"
+\n\n{Interviewee_pronoun} suddenly relaxes and deeply breathes out. You don't like the look on {Interviewee_possessive} face - it's the same look raiders have when they decide to throw their lives away on your defences.
+\n\n"It was all over anyway. I don't think I can kill you, but I'll do my best," {Interviewee_pronoun} says.</Aggro_ZDreamer>
+<Fight_ZDreamer>Conversation ends.</Fight_ZDreamer>
+
+</LanguageData>

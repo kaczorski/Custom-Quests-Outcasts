@@ -1,0 +1,1455 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <QuestEditor_Library.CustomMapDataDef>
+    <defName>Outcasts_ZDreamerMap</defName>
+    <label>lone house</label>
+    <fogged>false</fogged>
+    <size>(16, 1, 16)</size>
+    <isPart>false</isPart>
+    <commonality>1</commonality>
+    <generationLimit>0</generationLimit>
+    <customThings>
+      <li Class="QuestEditor_Library.CustomThingData_InteractableThing">
+        <def>CQ_StrangeWall_ZDreamer</def>
+        <stuff>Plasteel</stuff>
+        <faction>CQ_Outcasts</faction>
+        <comps>
+          <li>
+            <compName>DestroyStrangeSpot</compName>
+            <mode>Destroy</mode>
+            <actions>
+              <li Class="QuestEditor_Library.CQFAction_SentSignal">
+                <signal>Spot.Destroy</signal>
+                <signalIsOnlyValidInPart>true</signalIsOnlyValidInPart>
+              </li>
+            </actions>
+          </li>
+        </comps>
+        <position>(-5,0,-4)</position>
+        <operations>
+          <li>
+            <interactionText>Deconstruct</interactionText>
+            <tickToOperate>25</tickToOperate>
+            <results>
+              <li>
+                <resultName>DefaultName</resultName>
+                <actions>
+                  <li Class="QuestEditor_Library.CQFAction_Hediff">
+                    <targetsText>
+                      <li>Trigger</li>
+                    </targetsText>
+                    <hediff>CQ_Wallbreaker_ZDreamer</hediff>
+                    <severity>1</severity>
+                  </li>
+                  <li Class="QuestEditor_Library.CQFAction_Spawn">
+                    <targetsText>
+                      <li>CustomThing</li>
+                    </targetsText>
+                    <datas>
+                      <li>
+                        <dataName>plasteel</dataName>
+                        <chance>1</chance>
+                        <things>
+                          <li Class="QuestEditor_Library.CQFThingDefCount">
+                            <count>1~25</count>
+                            <thing>Plasteel</thing>
+                          </li>
+                        </things>
+                      </li>
+                    </datas>
+                  </li>
+                  <li Class="QuestEditor_Library.CQFAction_Destory">
+                    <targetsText>
+                      <li>CustomThing</li>
+                    </targetsText>
+                  </li>
+                </actions>
+                <conditions />
+              </li>
+            </results>
+          </li>
+        </operations>
+      </li>
+      <li Class="QuestEditor_Library.CustomThingData_InteractableThing">
+        <def>CQ_StrangeWall_ZDreamer</def>
+        <stuff>Plasteel</stuff>
+        <faction>CQ_Outcasts</faction>
+        <comps>
+          <li>
+            <compName>DestroyStrangeSpot</compName>
+            <mode>Destroy</mode>
+            <actions>
+              <li Class="QuestEditor_Library.CQFAction_SentSignal">
+                <signal>Spot.Destroy</signal>
+                <signalIsOnlyValidInPart>true</signalIsOnlyValidInPart>
+              </li>
+            </actions>
+          </li>
+        </comps>
+        <position>(-7,0,-5)</position>
+        <operations>
+          <li>
+            <interactionText>Deconstruct</interactionText>
+            <tickToOperate>25</tickToOperate>
+            <results>
+              <li>
+                <resultName>DefaultName</resultName>
+                <actions>
+                  <li Class="QuestEditor_Library.CQFAction_Hediff">
+                    <targetsText>
+                      <li>Trigger</li>
+                    </targetsText>
+                    <hediff>CQ_Wallbreaker_ZDreamer</hediff>
+                    <severity>1</severity>
+                  </li>
+                  <li Class="QuestEditor_Library.CQFAction_Spawn">
+                    <targetsText>
+                      <li>CustomThing</li>
+                    </targetsText>
+                    <datas>
+                      <li>
+                        <dataName>plasteel</dataName>
+                        <chance>1</chance>
+                        <things>
+                          <li Class="QuestEditor_Library.CQFThingDefCount">
+                            <count>1~25</count>
+                            <thing>Plasteel</thing>
+                          </li>
+                        </things>
+                      </li>
+                    </datas>
+                  </li>
+                  <li Class="QuestEditor_Library.CQFAction_Destory">
+                    <targetsText>
+                      <li>CustomThing</li>
+                    </targetsText>
+                  </li>
+                </actions>
+                <conditions />
+              </li>
+            </results>
+          </li>
+        </operations>
+      </li>
+      <li Class="QuestEditor_Library.CustomThingData_InteractableThing">
+        <def>CQ_StrangeWall_ZDreamer</def>
+        <stuff>Plasteel</stuff>
+        <faction>CQ_Outcasts</faction>
+        <comps>
+          <li>
+            <compName>DestroyStrangeSpot</compName>
+            <mode>Destroy</mode>
+            <actions>
+              <li Class="QuestEditor_Library.CQFAction_SentSignal">
+                <signal>Spot.Destroy</signal>
+                <signalIsOnlyValidInPart>true</signalIsOnlyValidInPart>
+              </li>
+            </actions>
+          </li>
+        </comps>
+        <position>(-5,0,-6)</position>
+        <operations>
+          <li>
+            <interactionText>Deconstruct</interactionText>
+            <tickToOperate>25</tickToOperate>
+            <results>
+              <li>
+                <resultName>DefaultName</resultName>
+                <actions>
+                  <li Class="QuestEditor_Library.CQFAction_Hediff">
+                    <targetsText>
+                      <li>Trigger</li>
+                    </targetsText>
+                    <hediff>CQ_Wallbreaker_ZDreamer</hediff>
+                    <severity>1</severity>
+                  </li>
+                  <li Class="QuestEditor_Library.CQFAction_Spawn">
+                    <targetsText>
+                      <li>CustomThing</li>
+                    </targetsText>
+                    <datas>
+                      <li>
+                        <dataName>plasteel</dataName>
+                        <chance>1</chance>
+                        <things>
+                          <li Class="QuestEditor_Library.CQFThingDefCount">
+                            <count>1~25</count>
+                            <thing>Plasteel</thing>
+                          </li>
+                        </things>
+                      </li>
+                    </datas>
+                  </li>
+                  <li Class="QuestEditor_Library.CQFAction_Destory">
+                    <targetsText>
+                      <li>CustomThing</li>
+                    </targetsText>
+                  </li>
+                </actions>
+                <conditions />
+              </li>
+            </results>
+          </li>
+        </operations>
+      </li>
+      <li Class="QuestEditor_Library.CustomThingData_InteractableThing">
+        <def>CQ_StrangeWall_ZDreamer</def>
+        <stuff>Plasteel</stuff>
+        <faction>CQ_Outcasts</faction>
+        <position>(-1,0,-7)</position>
+        <operations>
+          <li>
+            <interactionText>Deconstruct</interactionText>
+            <tickToOperate>25</tickToOperate>
+            <results>
+              <li>
+                <resultName>DefaultName</resultName>
+                <actions>
+                  <li Class="QuestEditor_Library.CQFAction_Hediff">
+                    <targetsText>
+                      <li>Trigger</li>
+                    </targetsText>
+                    <hediff>CQ_Wallbreaker_ZDreamer</hediff>
+                    <severity>1</severity>
+                  </li>
+                  <li Class="QuestEditor_Library.CQFAction_Spawn">
+                    <targetsText>
+                      <li>CustomThing</li>
+                    </targetsText>
+                    <datas>
+                      <li>
+                        <dataName>plasteel</dataName>
+                        <chance>1</chance>
+                        <things>
+                          <li Class="QuestEditor_Library.CQFThingDefCount">
+                            <count>1~25</count>
+                            <thing>Plasteel</thing>
+                          </li>
+                        </things>
+                      </li>
+                    </datas>
+                  </li>
+                  <li Class="QuestEditor_Library.CQFAction_Destory">
+                    <targetsText>
+                      <li>CustomThing</li>
+                    </targetsText>
+                  </li>
+                </actions>
+                <conditions />
+              </li>
+            </results>
+          </li>
+        </operations>
+      </li>
+      <li Class="QuestEditor_Library.CustomThingData_InteractableThing">
+        <def>CQ_StrangeWall_ZDreamer</def>
+        <stuff>Plasteel</stuff>
+        <faction>CQ_Outcasts</faction>
+        <position>(-1,0,-8)</position>
+        <operations>
+          <li>
+            <interactionText>Deconstruct</interactionText>
+            <tickToOperate>25</tickToOperate>
+            <results>
+              <li>
+                <resultName>DefaultName</resultName>
+                <actions>
+                  <li Class="QuestEditor_Library.CQFAction_Hediff">
+                    <targetsText>
+                      <li>Trigger</li>
+                    </targetsText>
+                    <hediff>CQ_Wallbreaker_ZDreamer</hediff>
+                    <severity>1</severity>
+                  </li>
+                  <li Class="QuestEditor_Library.CQFAction_Spawn">
+                    <targetsText>
+                      <li>CustomThing</li>
+                    </targetsText>
+                    <datas>
+                      <li>
+                        <dataName>plasteel</dataName>
+                        <chance>1</chance>
+                        <things>
+                          <li Class="QuestEditor_Library.CQFThingDefCount">
+                            <count>1~25</count>
+                            <thing>Plasteel</thing>
+                          </li>
+                        </things>
+                      </li>
+                    </datas>
+                  </li>
+                  <li Class="QuestEditor_Library.CQFAction_Destory">
+                    <targetsText>
+                      <li>CustomThing</li>
+                    </targetsText>
+                  </li>
+                </actions>
+                <conditions />
+              </li>
+            </results>
+          </li>
+        </operations>
+      </li>
+      <li Class="QuestEditor_Library.CustomThingData_InteractableThing">
+        <def>CQ_StrangeWall_ZDreamer</def>
+        <stuff>Plasteel</stuff>
+        <faction>CQ_Outcasts</faction>
+        <position>(0,0,-8)</position>
+        <operations>
+          <li>
+            <interactionText>Deconstruct</interactionText>
+            <tickToOperate>25</tickToOperate>
+            <results>
+              <li>
+                <resultName>DefaultName</resultName>
+                <actions>
+                  <li Class="QuestEditor_Library.CQFAction_Hediff">
+                    <targetsText>
+                      <li>Trigger</li>
+                    </targetsText>
+                    <hediff>CQ_Wallbreaker_ZDreamer</hediff>
+                    <severity>1</severity>
+                  </li>
+                  <li Class="QuestEditor_Library.CQFAction_Spawn">
+                    <targetsText>
+                      <li>CustomThing</li>
+                    </targetsText>
+                    <datas>
+                      <li>
+                        <dataName>plasteel</dataName>
+                        <chance>1</chance>
+                        <things>
+                          <li Class="QuestEditor_Library.CQFThingDefCount">
+                            <count>1~25</count>
+                            <thing>Plasteel</thing>
+                          </li>
+                        </things>
+                      </li>
+                    </datas>
+                  </li>
+                  <li Class="QuestEditor_Library.CQFAction_Destory">
+                    <targetsText>
+                      <li>CustomThing</li>
+                    </targetsText>
+                  </li>
+                </actions>
+                <conditions />
+              </li>
+            </results>
+          </li>
+        </operations>
+      </li>
+      <li Class="QuestEditor_Library.CustomThingData_InteractableThing">
+        <def>CQ_StrangeWall_ZDreamer</def>
+        <stuff>Plasteel</stuff>
+        <faction>CQ_Outcasts</faction>
+        <position>(1,0,-7)</position>
+        <operations>
+          <li>
+            <interactionText>Deconstruct</interactionText>
+            <tickToOperate>25</tickToOperate>
+            <results>
+              <li>
+                <resultName>DefaultName</resultName>
+                <actions>
+                  <li Class="QuestEditor_Library.CQFAction_Hediff">
+                    <targetsText>
+                      <li>Trigger</li>
+                    </targetsText>
+                    <hediff>CQ_Wallbreaker_ZDreamer</hediff>
+                    <severity>1</severity>
+                  </li>
+                  <li Class="QuestEditor_Library.CQFAction_Spawn">
+                    <targetsText>
+                      <li>CustomThing</li>
+                    </targetsText>
+                    <datas>
+                      <li>
+                        <dataName>plasteel</dataName>
+                        <chance>1</chance>
+                        <things>
+                          <li Class="QuestEditor_Library.CQFThingDefCount">
+                            <count>1~25</count>
+                            <thing>Plasteel</thing>
+                          </li>
+                        </things>
+                      </li>
+                    </datas>
+                  </li>
+                  <li Class="QuestEditor_Library.CQFAction_Destory">
+                    <targetsText>
+                      <li>CustomThing</li>
+                    </targetsText>
+                  </li>
+                </actions>
+                <conditions />
+              </li>
+            </results>
+          </li>
+        </operations>
+      </li>
+      <li Class="QuestEditor_Library.CustomThingData_InteractableThing">
+        <def>CQ_StrangeWall_ZDreamer</def>
+        <stuff>Plasteel</stuff>
+        <faction>CQ_Outcasts</faction>
+        <position>(6,0,-4)</position>
+        <operations>
+          <li>
+            <interactionText>Deconstruct</interactionText>
+            <tickToOperate>25</tickToOperate>
+            <results>
+              <li>
+                <resultName>DefaultName</resultName>
+                <actions>
+                  <li Class="QuestEditor_Library.CQFAction_Hediff">
+                    <targetsText>
+                      <li>Trigger</li>
+                    </targetsText>
+                    <hediff>CQ_Wallbreaker_ZDreamer</hediff>
+                    <severity>1</severity>
+                  </li>
+                  <li Class="QuestEditor_Library.CQFAction_Spawn">
+                    <targetsText>
+                      <li>CustomThing</li>
+                    </targetsText>
+                    <datas>
+                      <li>
+                        <dataName>plasteel</dataName>
+                        <chance>1</chance>
+                        <things>
+                          <li Class="QuestEditor_Library.CQFThingDefCount">
+                            <count>1~25</count>
+                            <thing>Plasteel</thing>
+                          </li>
+                        </things>
+                      </li>
+                    </datas>
+                  </li>
+                  <li Class="QuestEditor_Library.CQFAction_Destory">
+                    <targetsText>
+                      <li>CustomThing</li>
+                    </targetsText>
+                  </li>
+                </actions>
+                <conditions />
+              </li>
+            </results>
+          </li>
+        </operations>
+      </li>
+      <li Class="QuestEditor_Library.CustomThingData_InteractableThing">
+        <def>CQ_StrangeWall_ZDreamer</def>
+        <stuff>Plasteel</stuff>
+        <faction>CQ_Outcasts</faction>
+        <position>(6,0,-3)</position>
+        <operations>
+          <li>
+            <interactionText>Deconstruct</interactionText>
+            <tickToOperate>25</tickToOperate>
+            <results>
+              <li>
+                <resultName>DefaultName</resultName>
+                <actions>
+                  <li Class="QuestEditor_Library.CQFAction_Hediff">
+                    <targetsText>
+                      <li>Trigger</li>
+                    </targetsText>
+                    <hediff>CQ_Wallbreaker_ZDreamer</hediff>
+                    <severity>1</severity>
+                  </li>
+                  <li Class="QuestEditor_Library.CQFAction_Spawn">
+                    <targetsText>
+                      <li>CustomThing</li>
+                    </targetsText>
+                    <datas>
+                      <li>
+                        <dataName>plasteel</dataName>
+                        <chance>1</chance>
+                        <things>
+                          <li Class="QuestEditor_Library.CQFThingDefCount">
+                            <count>1~25</count>
+                            <thing>Plasteel</thing>
+                          </li>
+                        </things>
+                      </li>
+                    </datas>
+                  </li>
+                  <li Class="QuestEditor_Library.CQFAction_Destory">
+                    <targetsText>
+                      <li>CustomThing</li>
+                    </targetsText>
+                  </li>
+                </actions>
+                <conditions />
+              </li>
+            </results>
+          </li>
+        </operations>
+      </li>
+      <li Class="QuestEditor_Library.CustomThingData_InteractableThing">
+        <def>CQ_StrangeWall_ZDreamer</def>
+        <stuff>Plasteel</stuff>
+        <faction>CQ_Outcasts</faction>
+        <position>(5,0,-4)</position>
+        <operations>
+          <li>
+            <interactionText>Deconstruct</interactionText>
+            <tickToOperate>25</tickToOperate>
+            <results>
+              <li>
+                <resultName>DefaultName</resultName>
+                <actions>
+                  <li Class="QuestEditor_Library.CQFAction_Hediff">
+                    <targetsText>
+                      <li>Trigger</li>
+                    </targetsText>
+                    <hediff>CQ_Wallbreaker_ZDreamer</hediff>
+                    <severity>1</severity>
+                  </li>
+                  <li Class="QuestEditor_Library.CQFAction_Spawn">
+                    <targetsText>
+                      <li>CustomThing</li>
+                    </targetsText>
+                    <datas>
+                      <li>
+                        <dataName>plasteel</dataName>
+                        <chance>1</chance>
+                        <things>
+                          <li Class="QuestEditor_Library.CQFThingDefCount">
+                            <count>1~25</count>
+                            <thing>Plasteel</thing>
+                          </li>
+                        </things>
+                      </li>
+                    </datas>
+                  </li>
+                  <li Class="QuestEditor_Library.CQFAction_Destory">
+                    <targetsText>
+                      <li>CustomThing</li>
+                    </targetsText>
+                  </li>
+                </actions>
+                <conditions />
+              </li>
+            </results>
+          </li>
+        </operations>
+      </li>
+      <li Class="QuestEditor_Library.CustomThingData_InteractableThing">
+        <def>CQ_StrangeWall_ZDreamer</def>
+        <stuff>Plasteel</stuff>
+        <faction>CQ_Outcasts</faction>
+        <position>(5,0,-5)</position>
+        <operations>
+          <li>
+            <interactionText>Deconstruct</interactionText>
+            <tickToOperate>25</tickToOperate>
+            <results>
+              <li>
+                <resultName>DefaultName</resultName>
+                <actions>
+                  <li Class="QuestEditor_Library.CQFAction_Hediff">
+                    <targetsText>
+                      <li>Trigger</li>
+                    </targetsText>
+                    <hediff>CQ_Wallbreaker_ZDreamer</hediff>
+                    <severity>1</severity>
+                  </li>
+                  <li Class="QuestEditor_Library.CQFAction_Spawn">
+                    <targetsText>
+                      <li>CustomThing</li>
+                    </targetsText>
+                    <datas>
+                      <li>
+                        <dataName>plasteel</dataName>
+                        <chance>1</chance>
+                        <things>
+                          <li Class="QuestEditor_Library.CQFThingDefCount">
+                            <count>1~25</count>
+                            <thing>Plasteel</thing>
+                          </li>
+                        </things>
+                      </li>
+                    </datas>
+                  </li>
+                  <li Class="QuestEditor_Library.CQFAction_Destory">
+                    <targetsText>
+                      <li>CustomThing</li>
+                    </targetsText>
+                  </li>
+                </actions>
+                <conditions />
+              </li>
+            </results>
+          </li>
+        </operations>
+      </li>
+      <li Class="QuestEditor_Library.CustomThingData_InteractableThing">
+        <def>CQ_StrangeWall_ZDreamer</def>
+        <stuff>Plasteel</stuff>
+        <faction>CQ_Outcasts</faction>
+        <position>(4,0,-5)</position>
+        <operations>
+          <li>
+            <interactionText>Deconstruct</interactionText>
+            <tickToOperate>25</tickToOperate>
+            <results>
+              <li>
+                <resultName>DefaultName</resultName>
+                <actions>
+                  <li Class="QuestEditor_Library.CQFAction_Hediff">
+                    <targetsText>
+                      <li>Trigger</li>
+                    </targetsText>
+                    <hediff>CQ_Wallbreaker_ZDreamer</hediff>
+                    <severity>1</severity>
+                  </li>
+                  <li Class="QuestEditor_Library.CQFAction_Spawn">
+                    <targetsText>
+                      <li>CustomThing</li>
+                    </targetsText>
+                    <datas>
+                      <li>
+                        <dataName>plasteel</dataName>
+                        <chance>1</chance>
+                        <things>
+                          <li Class="QuestEditor_Library.CQFThingDefCount">
+                            <count>1~25</count>
+                            <thing>Plasteel</thing>
+                          </li>
+                        </things>
+                      </li>
+                    </datas>
+                  </li>
+                  <li Class="QuestEditor_Library.CQFAction_Destory">
+                    <targetsText>
+                      <li>CustomThing</li>
+                    </targetsText>
+                  </li>
+                </actions>
+                <conditions />
+              </li>
+            </results>
+          </li>
+        </operations>
+      </li>
+      <li Class="QuestEditor_Library.CustomThingData_InteractableThing">
+        <def>QE_WorkSpot</def>
+        <faction>CQ_Outcasts</faction>
+        <customDescription>An outhouse: dark, dingy and not very clean.</customDescription>
+        <comps>
+          <li>
+            <compName>NoMoreSpoilers</compName>
+            <mode>Signal</mode>
+            <signal>No.Spoilers</signal>
+            <signalIsOnlyValidInPart>true</signalIsOnlyValidInPart>
+            <actions>
+              <li Class="QuestEditor_Library.CQFAction_Destory">
+                <targetsText>
+                  <li>CustomThing</li>
+                </targetsText>
+              </li>
+            </actions>
+          </li>
+        </comps>
+        <position>(5,0,4)</position>
+        <operations>
+          <li>
+            <interactionText>Tidy up!</interactionText>
+            <tickToOperate>110</tickToOperate>
+            <results>
+              <li>
+                <resultName>DefaultName</resultName>
+                <actions>
+                  <li Class="QuestEditor_Library.CQFAction_SentSignal">
+                    <signal>Rat.Out</signal>
+                    <signalIsOnlyValidInPart>true</signalIsOnlyValidInPart>
+                  </li>
+                  <li Class="QuestEditor_Library.CQFAction_Message">
+                    <message>You startled a rat!</message>
+                    <type>NeutralEvent</type>
+                  </li>
+                </actions>
+                <conditions />
+              </li>
+            </results>
+          </li>
+        </operations>
+      </li>
+      <li Class="QuestEditor_Library.CustomThingData_InteractableThing">
+        <def>CQ_StrangeWall_ZDreamer</def>
+        <stuff>Plasteel</stuff>
+        <faction>CQ_Outcasts</faction>
+        <position>(1,0,-6)</position>
+        <operations>
+          <li>
+            <interactionText>Deconstruct</interactionText>
+            <tickToOperate>25</tickToOperate>
+            <results>
+              <li>
+                <resultName>DefaultName</resultName>
+                <actions>
+                  <li Class="QuestEditor_Library.CQFAction_Hediff">
+                    <targetsText>
+                      <li>Trigger</li>
+                    </targetsText>
+                    <hediff>CQ_Wallbreaker_ZDreamer</hediff>
+                    <severity>1</severity>
+                  </li>
+                  <li Class="QuestEditor_Library.CQFAction_Spawn">
+                    <targetsText>
+                      <li>CustomThing</li>
+                    </targetsText>
+                    <datas>
+                      <li>
+                        <dataName>plasteel</dataName>
+                        <chance>1</chance>
+                        <things>
+                          <li Class="QuestEditor_Library.CQFThingDefCount">
+                            <count>1~25</count>
+                            <thing>Plasteel</thing>
+                          </li>
+                        </things>
+                      </li>
+                    </datas>
+                  </li>
+                  <li Class="QuestEditor_Library.CQFAction_Destory">
+                    <targetsText>
+                      <li>CustomThing</li>
+                    </targetsText>
+                  </li>
+                </actions>
+                <conditions />
+              </li>
+            </results>
+          </li>
+        </operations>
+      </li>
+      <li Class="QuestEditor_Library.CustomThingData_InteractableThing">
+        <def>CQ_StrangeWall_ZDreamer</def>
+        <stuff>Plasteel</stuff>
+        <faction>CQ_Outcasts</faction>
+        <comps>
+          <li>
+            <compName>DestroyStrangeSpot</compName>
+            <mode>Destroy</mode>
+            <actions>
+              <li Class="QuestEditor_Library.CQFAction_SentSignal">
+                <signal>Spot.Destroy</signal>
+                <signalIsOnlyValidInPart>true</signalIsOnlyValidInPart>
+              </li>
+            </actions>
+          </li>
+        </comps>
+        <position>(-6,0,-5)</position>
+        <operations>
+          <li>
+            <interactionText>Deconstruct</interactionText>
+            <tickToOperate>25</tickToOperate>
+            <results>
+              <li>
+                <resultName>DefaultName</resultName>
+                <actions>
+                  <li Class="QuestEditor_Library.CQFAction_Hediff">
+                    <targetsText>
+                      <li>Trigger</li>
+                    </targetsText>
+                    <hediff>CQ_Wallbreaker_ZDreamer</hediff>
+                    <severity>1</severity>
+                  </li>
+                  <li Class="QuestEditor_Library.CQFAction_Spawn">
+                    <targetsText>
+                      <li>CustomThing</li>
+                    </targetsText>
+                    <datas>
+                      <li>
+                        <dataName>plasteel</dataName>
+                        <chance>1</chance>
+                        <things>
+                          <li Class="QuestEditor_Library.CQFThingDefCount">
+                            <count>1~25</count>
+                            <thing>Plasteel</thing>
+                          </li>
+                        </things>
+                      </li>
+                    </datas>
+                  </li>
+                  <li Class="QuestEditor_Library.CQFAction_Destory">
+                    <targetsText>
+                      <li>CustomThing</li>
+                    </targetsText>
+                  </li>
+                </actions>
+                <conditions />
+              </li>
+            </results>
+          </li>
+        </operations>
+      </li>
+      <li Class="QuestEditor_Library.CustomThingData_InteractableThing">
+        <def>Outcasts_ErinsDecorationsPaper</def>
+        <rotation>1</rotation>
+        <stuff>DevilstrandCloth</stuff>
+        <faction>CQ_Outcasts</faction>
+        <comps>
+          <li>
+            <compName>SpawnRat</compName>
+            <mode>Signal</mode>
+            <signal>Rat.Out</signal>
+            <signalIsOnlyValidInPart>true</signalIsOnlyValidInPart>
+            <actions>
+              <li Class="QuestEditor_Library.CQFAction_Spawn">
+                <targetsText>
+                  <li>CustomThing</li>
+                </targetsText>
+                <datas>
+                  <li>
+                    <dataName>Unnamed</dataName>
+                    <chance>1</chance>
+                    <pawnDatas>
+                      <li>
+                        <dataName>SpoilerRat</dataName>
+                        <kind>Rat</kind>
+                        <enableLord>true</enableLord>
+                        <count>1~1</count>
+                        <dialogManager>CQ_DialogManager_ZDreamer_Spoiler</dialogManager>
+                        <duty>QE_Duty_Exiter</duty>
+                        <spawnType>MapGeneration</spawnType>
+                        <hediffs>
+                          <li>
+                            <partLabel></partLabel>
+                            <hediff>Malnutrition</hediff>
+                            <part />
+                            <severity>0.3</severity>
+                            <partLabelForSeeing></partLabelForSeeing>
+                          </li>
+                          <li>
+                            <partLabel>left kidney</partLabel>
+                            <hediff>MissingBodyPart</hediff>
+                            <part>Kidney</part>
+                            <severity>0</severity>
+                            <partLabelForSeeing>left kidney</partLabelForSeeing>
+                          </li>
+                        </hediffs>
+                      </li>
+                    </pawnDatas>
+                  </li>
+                </datas>
+              </li>
+            </actions>
+          </li>
+        </comps>
+        <position>(4,0,5)</position>
+      </li>
+      <li Class="QuestEditor_Library.CustomThingData_CustomMapEntrance">
+        <def>CQ_CustomMapEntrance_Invisible</def>
+        <faction>PlayerColony</faction>
+        <comps>
+          <li>
+            <compName>Self_Destruct</compName>
+            <mode>Signal</mode>
+            <signal>Spot.Destroy</signal>
+            <signalIsOnlyValidInPart>true</signalIsOnlyValidInPart>
+            <actions>
+              <li Class="QuestEditor_Library.CQFAction_Destory">
+                <targetsText>
+                  <li>CustomThing</li>
+                </targetsText>
+              </li>
+            </actions>
+          </li>
+        </comps>
+        <position>(-8,0,-5)</position>
+        <data>Outcasts_ZLevelMap</data>
+        <exitName>Back2D</exitName>
+      </li>
+    </customThings>
+    <pawns>
+      <li>
+        <key>(0, 0, 3)</key>
+        <value>
+          <li>
+            <dataName>ZLevelDreamer</dataName>
+            <kind>Outcasts_ZDreamer</kind>
+            <enableLord>true</enableLord>
+            <count>1~1</count>
+            <faction>CQ_Outcasts</faction>
+            <dialogManager>CQ_DialogManager_ZDreamer_Wallbreaker</dialogManager>
+            <duty>QE_Duty_Waiter</duty>
+            <spawnType>MapGeneration</spawnType>
+            <hediffs>
+              <li>
+                <partLabel></partLabel>
+                <hediff>Malnutrition</hediff>
+                <part />
+                <severity>0.3</severity>
+                <partLabelForSeeing></partLabelForSeeing>
+              </li>
+              <li>
+                <partLabel>left leg</partLabel>
+                <hediff>PegLeg</hediff>
+                <part>Leg</part>
+                <severity>0</severity>
+                <partLabelForSeeing>left leg</partLabelForSeeing>
+              </li>
+              <li>
+                <partLabel>right leg</partLabel>
+                <hediff>PegLeg</hediff>
+                <part>Leg</part>
+                <severity>0</severity>
+                <partLabelForSeeing>right leg</partLabelForSeeing>
+              </li>
+              <li>
+                <partLabel>left kidney</partLabel>
+                <hediff>MissingBodyPart</hediff>
+                <part>Kidney</part>
+                <severity>0</severity>
+                <partLabelForSeeing>left kidney</partLabelForSeeing>
+              </li>
+            </hediffs>
+          </li>
+        </value>
+      </li>
+    </pawns>
+    <roofs>
+      <li>
+        <key>RoofConstructed</key>
+        <value>
+          <li>(-1, 0, -1)</li>
+          <li>(0, 0, -1)</li>
+          <li>(1, 0, -1)</li>
+          <li>(-5, 0, 0)</li>
+          <li>(-4, 0, 0)</li>
+          <li>(-3, 0, 0)</li>
+          <li>(-2, 0, 0)</li>
+          <li>(-1, 0, 0)</li>
+          <li>(0, 0, 0)</li>
+          <li>(1, 0, 0)</li>
+          <li>(2, 0, 0)</li>
+          <li>(3, 0, 0)</li>
+          <li>(4, 0, 0)</li>
+          <li>(-5, 0, 1)</li>
+          <li>(-4, 0, 1)</li>
+          <li>(-3, 0, 1)</li>
+          <li>(-2, 0, 1)</li>
+          <li>(-1, 0, 1)</li>
+          <li>(0, 0, 1)</li>
+          <li>(1, 0, 1)</li>
+          <li>(2, 0, 1)</li>
+          <li>(3, 0, 1)</li>
+          <li>(4, 0, 1)</li>
+          <li>(-5, 0, 2)</li>
+          <li>(-4, 0, 2)</li>
+          <li>(-3, 0, 2)</li>
+          <li>(-2, 0, 2)</li>
+          <li>(-1, 0, 2)</li>
+          <li>(0, 0, 2)</li>
+          <li>(1, 0, 2)</li>
+          <li>(2, 0, 2)</li>
+          <li>(3, 0, 2)</li>
+          <li>(4, 0, 2)</li>
+          <li>(-5, 0, 3)</li>
+          <li>(-4, 0, 3)</li>
+          <li>(-3, 0, 3)</li>
+          <li>(-2, 0, 3)</li>
+          <li>(-1, 0, 3)</li>
+          <li>(0, 0, 3)</li>
+          <li>(1, 0, 3)</li>
+          <li>(2, 0, 3)</li>
+          <li>(3, 0, 3)</li>
+          <li>(4, 0, 3)</li>
+          <li>(5, 0, 3)</li>
+          <li>(6, 0, 3)</li>
+          <li>(-5, 0, 4)</li>
+          <li>(-4, 0, 4)</li>
+          <li>(-3, 0, 4)</li>
+          <li>(-2, 0, 4)</li>
+          <li>(-1, 0, 4)</li>
+          <li>(0, 0, 4)</li>
+          <li>(1, 0, 4)</li>
+          <li>(2, 0, 4)</li>
+          <li>(3, 0, 4)</li>
+          <li>(4, 0, 4)</li>
+          <li>(5, 0, 4)</li>
+          <li>(6, 0, 4)</li>
+          <li>(-3, 0, 5)</li>
+          <li>(-2, 0, 5)</li>
+          <li>(-1, 0, 5)</li>
+          <li>(0, 0, 5)</li>
+          <li>(1, 0, 5)</li>
+          <li>(2, 0, 5)</li>
+          <li>(3, 0, 5)</li>
+          <li>(4, 0, 5)</li>
+          <li>(5, 0, 5)</li>
+          <li>(6, 0, 5)</li>
+          <li>(-3, 0, 6)</li>
+          <li>(-2, 0, 6)</li>
+          <li>(-1, 0, 6)</li>
+          <li>(0, 0, 6)</li>
+          <li>(1, 0, 6)</li>
+          <li>(2, 0, 6)</li>
+          <li>(3, 0, 6)</li>
+          <li>(4, 0, 6)</li>
+          <li>(5, 0, 6)</li>
+          <li>(6, 0, 6)</li>
+          <li>(-3, 0, 7)</li>
+          <li>(-2, 0, 7)</li>
+          <li>(-1, 0, 7)</li>
+          <li>(1, 0, 7)</li>
+          <li>(2, 0, 7)</li>
+          <li>(3, 0, 7)</li>
+        </value>
+      </li>
+    </roofs>
+    <terrains>
+      <li>
+        <key>WoodPlankFloor</key>
+        <value>
+          <li>(0, 0, 0)</li>
+          <li>(-4, 0, 1)</li>
+          <li>(-3, 0, 1)</li>
+          <li>(-2, 0, 1)</li>
+          <li>(0, 0, 1)</li>
+          <li>(2, 0, 1)</li>
+          <li>(3, 0, 1)</li>
+          <li>(-4, 0, 2)</li>
+          <li>(-3, 0, 2)</li>
+          <li>(-2, 0, 2)</li>
+          <li>(-1, 0, 2)</li>
+          <li>(0, 0, 2)</li>
+          <li>(1, 0, 2)</li>
+          <li>(2, 0, 2)</li>
+          <li>(3, 0, 2)</li>
+          <li>(-4, 0, 3)</li>
+          <li>(-3, 0, 3)</li>
+          <li>(-2, 0, 3)</li>
+          <li>(-1, 0, 3)</li>
+          <li>(0, 0, 3)</li>
+          <li>(1, 0, 3)</li>
+          <li>(2, 0, 3)</li>
+          <li>(-2, 0, 4)</li>
+          <li>(-1, 0, 4)</li>
+          <li>(0, 0, 4)</li>
+          <li>(1, 0, 4)</li>
+          <li>(2, 0, 4)</li>
+          <li>(-2, 0, 5)</li>
+          <li>(-1, 0, 5)</li>
+          <li>(0, 0, 5)</li>
+          <li>(-2, 0, 6)</li>
+        </value>
+      </li>
+      <li>
+        <key>FlagstoneGranite</key>
+        <value>
+          <li>(5, 0, 3)</li>
+          <li>(4, 0, 4)</li>
+          <li>(5, 0, 4)</li>
+          <li>(1, 0, 5)</li>
+          <li>(2, 0, 5)</li>
+          <li>(4, 0, 5)</li>
+          <li>(5, 0, 5)</li>
+          <li>(2, 0, 6)</li>
+        </value>
+      </li>
+    </terrains>
+    <thingDatas>
+      <li>
+        <def>MealSurvivalPack</def>
+        <hitPoint>50</hitPoint>
+        <position>(-2,0,6)</position>
+      </li>
+      <li>
+        <def>Filth_AnimalFilth</def>
+        <position>(6,0,-2)</position>
+      </li>
+      <li>
+        <def>Wall</def>
+        <stuff>WoodLog</stuff>
+        <faction>CQ_Outcasts</faction>
+        <hitPoint>195</hitPoint>
+        <allPositions>
+          <li>(-3, 0, 4)</li>
+          <li>(-3, 0, 5)</li>
+          <li>(-3, 0, 6)</li>
+          <li>(-3, 0, 7)</li>
+          <li>(-2, 0, 7)</li>
+          <li>(-1, 0, 7)</li>
+          <li>(0, 0, 6)</li>
+          <li>(-5, 0, 0)</li>
+          <li>(-4, 0, 0)</li>
+          <li>(-3, 0, 0)</li>
+          <li>(-2, 0, 0)</li>
+          <li>(2, 0, 0)</li>
+          <li>(3, 0, 0)</li>
+          <li>(4, 0, 0)</li>
+          <li>(4, 0, 1)</li>
+          <li>(4, 0, 2)</li>
+          <li>(-1, 0, 6)</li>
+          <li>(3, 0, 3)</li>
+          <li>(4, 0, 3)</li>
+          <li>(3, 0, 4)</li>
+          <li>(-5, 0, 1)</li>
+          <li>(4, 0, 6)</li>
+          <li>(5, 0, 6)</li>
+          <li>(6, 0, 3)</li>
+          <li>(6, 0, 4)</li>
+          <li>(6, 0, 5)</li>
+          <li>(6, 0, 6)</li>
+          <li>(-5, 0, 2)</li>
+          <li>(-5, 0, 3)</li>
+          <li>(-5, 0, 4)</li>
+          <li>(-4, 0, 4)</li>
+        </allPositions>
+      </li>
+      <li>
+        <def>Wall</def>
+        <stuff>BlocksGranite</stuff>
+        <faction>CQ_Outcasts</faction>
+        <hitPoint>510</hitPoint>
+        <allPositions>
+          <li>(1, 0, 7)</li>
+          <li>(2, 0, 7)</li>
+          <li>(3, 0, 7)</li>
+          <li>(3, 0, 5)</li>
+          <li>(3, 0, 6)</li>
+          <li>(-1, 0, 0)</li>
+          <li>(-1, 0, 1)</li>
+          <li>(1, 0, 0)</li>
+          <li>(1, 0, 1)</li>
+          <li>(1, 0, 6)</li>
+        </allPositions>
+      </li>
+      <li>
+        <def>Column</def>
+        <stuff>BlocksGranite</stuff>
+        <faction>CQ_Outcasts</faction>
+        <hitPoint>270</hitPoint>
+        <allPositions>
+          <li>(-1, 0, -1)</li>
+          <li>(1, 0, -1)</li>
+        </allPositions>
+      </li>
+      <li>
+        <def>Door</def>
+        <stuff>Plasteel</stuff>
+        <faction>CQ_Outcasts</faction>
+        <hitPoint>450</hitPoint>
+        <position>(0,0,0)</position>
+      </li>
+      <li>
+        <def>VFE_WoodenBorder_Straight</def>
+        <stuff>WoodLog</stuff>
+        <rotation>2</rotation>
+        <faction>CQ_Outcasts</faction>
+        <hitPoint>32</hitPoint>
+        <position>(0,0,0)</position>
+      </li>
+      <li>
+        <def>VFE_StoneBorder_Straight</def>
+        <stuff>BlocksGranite</stuff>
+        <rotation>2</rotation>
+        <faction>CQ_Outcasts</faction>
+        <hitPoint>85</hitPoint>
+        <allPositions>
+          <li>(1, 0, 5)</li>
+          <li>(2, 0, 5)</li>
+        </allPositions>
+      </li>
+      <li>
+        <def>VFE_StoneBorder_Straight</def>
+        <stuff>BlocksGranite</stuff>
+        <rotation>3</rotation>
+        <faction>CQ_Outcasts</faction>
+        <hitPoint>85</hitPoint>
+        <position>(1,0,5)</position>
+      </li>
+      <li>
+        <def>TorchLamp</def>
+        <faction>CQ_Outcasts</faction>
+        <hitPoint>75</hitPoint>
+        <position>(2,0,6)</position>
+      </li>
+      <li>
+        <def>VFEPD_BrewingBarrel</def>
+        <faction>CQ_Outcasts</faction>
+        <hitPoint>30</hitPoint>
+        <position>(1,0,5)</position>
+      </li>
+      <li>
+        <def>VFEPD_CoffeeTableSmall</def>
+        <stuff>WoodLog</stuff>
+        <faction>CQ_Outcasts</faction>
+        <hitPoint>23</hitPoint>
+        <position>(0,0,5)</position>
+      </li>
+      <li>
+        <def>Stool</def>
+        <stuff>WoodLog</stuff>
+        <rotation>1</rotation>
+        <faction>CQ_Outcasts</faction>
+        <hitPoint>49</hitPoint>
+        <allPositions>
+          <li>(-2, 0, 2)</li>
+          <li>(-1, 0, 5)</li>
+        </allPositions>
+      </li>
+      <li>
+        <def>Stool</def>
+        <stuff>WoodLog</stuff>
+        <faction>CQ_Outcasts</faction>
+        <hitPoint>49</hitPoint>
+        <position>(0,0,4)</position>
+      </li>
+      <li>
+        <def>Column</def>
+        <stuff>WoodLog</stuff>
+        <faction>CQ_Outcasts</faction>
+        <hitPoint>104</hitPoint>
+        <position>(2,0,3)</position>
+      </li>
+      <li>
+        <def>ED_Candles</def>
+        <faction>CQ_Outcasts</faction>
+        <hitPoint>5</hitPoint>
+        <position>(-4,0,3)</position>
+      </li>
+      <li>
+        <def>VFEPD_BrickPile</def>
+        <stuff>BlocksGranite</stuff>
+        <faction>CQ_Outcasts</faction>
+        <hitPoint>68</hitPoint>
+        <allPositions>
+          <li>(-2, 0, -8)</li>
+          <li>(-4, 0, -4)</li>
+          <li>(4, 0, -6)</li>
+          <li>(6, 0, -5)</li>
+          <li>(5, 0, -3)</li>
+          <li>(0, 0, 7)</li>
+          <li>(-6, 0, -6)</li>
+          <li>(-6, 0, -4)</li>
+          <li>(-5, 0, -3)</li>
+          <li>(-2, 0, -6)</li>
+          <li>(-2, 0, -7)</li>
+        </allPositions>
+      </li>
+      <li>
+        <def>VFEPD_BoxLarge</def>
+        <rotation>2</rotation>
+        <faction>CQ_Outcasts</faction>
+        <hitPoint>70</hitPoint>
+        <position>(5,0,0)</position>
+      </li>
+      <li>
+        <def>HorseshoesPin</def>
+        <stuff>BlocksGranite</stuff>
+        <faction>CQ_Outcasts</faction>
+        <hitPoint>128</hitPoint>
+        <position>(-8,0,7)</position>
+      </li>
+      <li>
+        <def>VFEPD_FilthDirt</def>
+        <faction>CQ_Outcasts</faction>
+        <hitPoint>5</hitPoint>
+        <allPositions>
+          <li>(4, 0, -2)</li>
+          <li>(5, 0, -2)</li>
+          <li>(6, 0, 0)</li>
+          <li>(6, 0, -1)</li>
+          <li>(6, 0, -2)</li>
+          <li>(0, 0, -2)</li>
+          <li>(-1, 0, -2)</li>
+          <li>(-2, 0, -1)</li>
+          <li>(-4, 0, -1)</li>
+          <li>(-3, 0, -1)</li>
+          <li>(-6, 0, -1)</li>
+          <li>(-5, 0, -1)</li>
+          <li>(-6, 0, 0)</li>
+          <li>(-8, 0, 6)</li>
+          <li>(-7, 0, 5)</li>
+          <li>(-6, 0, 5)</li>
+          <li>(-6, 0, 4)</li>
+          <li>(-6, 0, 3)</li>
+          <li>(-7, 0, 1)</li>
+          <li>(-7, 0, 2)</li>
+          <li>(-7, 0, 3)</li>
+          <li>(-5, 0, -5)</li>
+          <li>(5, 0, -6)</li>
+          <li>(3, 0, -5)</li>
+          <li>(1, 0, -4)</li>
+          <li>(0, 0, -3)</li>
+          <li>(2, 0, -3)</li>
+          <li>(0, 0, -6)</li>
+          <li>(0, 0, -7)</li>
+          <li>(1, 0, -8)</li>
+          <li>(7, 0, -4)</li>
+          <li>(7, 0, -3)</li>
+          <li>(-2, 0, -2)</li>
+          <li>(1, 0, -2)</li>
+          <li>(2, 0, -2)</li>
+          <li>(-1, 0, -1)</li>
+          <li>(5, 0, 1)</li>
+          <li>(6, 0, 1)</li>
+          <li>(5, 0, 2)</li>
+          <li>(-4, 0, -5)</li>
+          <li>(-3, 0, -5)</li>
+          <li>(0, 0, -5)</li>
+          <li>(-1, 0, -4)</li>
+          <li>(-2, 0, -5)</li>
+          <li>(-7, 0, 7)</li>
+          <li>(-8, 0, 7)</li>
+          <li>(-7, 0, 6)</li>
+          <li>(-7, 0, 4)</li>
+          <li>(-7, 0, -4)</li>
+          <li>(-4, 0, -3)</li>
+          <li>(-6, 0, -7)</li>
+          <li>(-5, 0, -7)</li>
+          <li>(-4, 0, -6)</li>
+          <li>(-8, 0, -4)</li>
+          <li>(-1, 0, -6)</li>
+          <li>(4, 0, -4)</li>
+          <li>(-2, 0, 1)</li>
+          <li>(0, 0, 0)</li>
+          <li>(3, 0, -6)</li>
+          <li>(4, 0, -6)</li>
+          <li>(6, 0, -5)</li>
+          <li>(5, 0, -3)</li>
+          <li>(-4, 0, -4)</li>
+          <li>(0, 0, -1)</li>
+          <li>(1, 0, -1)</li>
+          <li>(-8, 0, -5)</li>
+          <li>(-7, 0, -6)</li>
+          <li>(-7, 0, -7)</li>
+          <li>(-8, 0, -8)</li>
+          <li>(-8, 0, -7)</li>
+          <li>(-6, 0, -8)</li>
+          <li>(-4, 0, -8)</li>
+          <li>(-4, 0, -7)</li>
+          <li>(-3, 0, -6)</li>
+          <li>(-3, 0, -7)</li>
+          <li>(-8, 0, -2)</li>
+          <li>(-7, 0, -1)</li>
+          <li>(-7, 0, -2)</li>
+          <li>(-6, 0, -2)</li>
+          <li>(-7, 0, 0)</li>
+          <li>(4, 0, -3)</li>
+          <li>(3, 0, -4)</li>
+          <li>(2, 0, -5)</li>
+          <li>(2, 0, -7)</li>
+          <li>(3, 0, -7)</li>
+          <li>(3, 0, -8)</li>
+          <li>(5, 0, -8)</li>
+          <li>(6, 0, -7)</li>
+          <li>(7, 0, -7)</li>
+          <li>(7, 0, -6)</li>
+          <li>(6, 0, -6)</li>
+          <li>(4, 0, -7)</li>
+          <li>(5, 0, -7)</li>
+          <li>(7, 0, -2)</li>
+          <li>(7, 0, 0)</li>
+          <li>(7, 0, 2)</li>
+          <li>(7, 0, 5)</li>
+          <li>(7, 0, 7)</li>
+          <li>(6, 0, 7)</li>
+          <li>(7, 0, 4)</li>
+          <li>(7, 0, 6)</li>
+          <li>(5, 0, 7)</li>
+          <li>(-4, 0, 7)</li>
+          <li>(-6, 0, 7)</li>
+          <li>(-8, 0, 2)</li>
+          <li>(-8, 0, 1)</li>
+          <li>(-2, 0, -4)</li>
+          <li>(6, 0, 2)</li>
+          <li>(-5, 0, -2)</li>
+          <li>(-4, 0, -2)</li>
+          <li>(-3, 0, -2)</li>
+          <li>(-2, 0, -3)</li>
+          <li>(-1, 0, -3)</li>
+          <li>(1, 0, -3)</li>
+          <li>(2, 0, -1)</li>
+          <li>(3, 0, -2)</li>
+        </allPositions>
+      </li>
+      <li>
+        <def>VFEPD_FilthRubbleRock</def>
+        <faction>CQ_Outcasts</faction>
+        <hitPoint>5</hitPoint>
+        <allPositions>
+          <li>(-6, 0, 3)</li>
+          <li>(-7, 0, 2)</li>
+          <li>(0, 0, 7)</li>
+        </allPositions>
+      </li>
+      <li>
+        <def>VFEPD_BucketEmpty</def>
+        <faction>CQ_Outcasts</faction>
+        <hitPoint>10</hitPoint>
+        <position>(5,0,5)</position>
+      </li>
+      <li>
+        <def>VFEPD_BucketwithWater</def>
+        <faction>CQ_Outcasts</faction>
+        <hitPoint>10</hitPoint>
+        <position>(4,0,4)</position>
+      </li>
+      <li>
+        <def>VFEPD_WoodenChest</def>
+        <rotation>2</rotation>
+        <faction>CQ_Outcasts</faction>
+        <hitPoint>70</hitPoint>
+        <position>(3,0,2)</position>
+      </li>
+      <li>
+        <def>ShelfSmall</def>
+        <stuff>WoodLog</stuff>
+        <rotation>2</rotation>
+        <faction>CQ_Outcasts</faction>
+        <hitPoint>32</hitPoint>
+        <position>(-2,0,6)</position>
+      </li>
+      <li>
+        <def>Door</def>
+        <stuff>WoodLog</stuff>
+        <faction>PlayerColony</faction>
+        <hitPoint>104</hitPoint>
+        <position>(5,0,3)</position>
+      </li>
+      <li>
+        <def>Bedroll</def>
+        <stuff>Cloth</stuff>
+        <rotation>3</rotation>
+        <faction>CQ_Outcasts</faction>
+        <hitPoint>75</hitPoint>
+        <position>(3,0,1)</position>
+      </li>
+      <li>
+        <def>VFEPD_FoodBox</def>
+        <faction>CQ_Outcasts</faction>
+        <hitPoint>20</hitPoint>
+        <position>(-5,0,5)</position>
+      </li>
+      <li>
+        <def>VFEPD_WoodenLogsLarge</def>
+        <rotation>2</rotation>
+        <faction>CQ_Outcasts</faction>
+        <hitPoint>70</hitPoint>
+        <position>(4,0,-1)</position>
+      </li>
+      <li>
+        <def>TableStonecutter</def>
+        <stuff>WoodLog</stuff>
+        <rotation>1</rotation>
+        <faction>CQ_Outcasts</faction>
+        <hitPoint>117</hitPoint>
+        <position>(-6,0,2)</position>
+      </li>
+      <li>
+        <def>SimpleResearchBench</def>
+        <stuff>WoodLog</stuff>
+        <rotation>3</rotation>
+        <faction>CQ_Outcasts</faction>
+        <hitPoint>162</hitPoint>
+        <position>(-3,0,2)</position>
+      </li>
+    </thingDatas>
+  </QuestEditor_Library.CustomMapDataDef>
+</Defs>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+<Intro_ZDreamerO>"Greetings stranger. I appreciate you didn't try to tear down my life's work without talking to me first." {Interviewee_pronoun} looks at you, smiling weakly. In {Interviewee_possessive} calloused hands {Interviewee_pronoun} tightly grips a massive breach axe. {Interviewee_possessive} legs were replaced by crude wooden pegs and, judging by the state of the wood, it happened long time ago.
+\n\n"My name's {Interviewee_nameFull} of the End of the Line."
+\n\n</Intro_ZDreamerO>
+<EndLineInt3Dwn_ZDreamer>What a strange faction name! You introduce yourself.</EndLineInt3Dwn_ZDreamer>
+<EndLineInt3Up_ZDreamer>This planet breaks people. You introduce yourself.</EndLineInt3Up_ZDreamer>
+<StopTalkingFight_ZDreamer>Well, you talked. Now it's time for some tearing.</StopTalkingFight_ZDreamer>
+
+<EndLineInt3Dwn_ZDreamerO>{Interviewee_nameDef} chuckles at your confusion.
+\n\n"What I meant is that I'm on my own. I've got no friends or family, not any more," {Interviewee_pronoun} clears {Interviewee_possessive} throat. "Anyway. I'm glad to make your acquaintance, {Interviewer_nameFull} of {Interviewer_factionName}. I welcome you at my table and my food is your food. Are you hungry?"
+\n\nYou can't help but notice {Interviewee_nameDef}'s sunken cheeks and slumped shoulders. You don't think {Interviewee_pronoun}'s been eating enough recently.
+\n\n</EndLineInt3Dwn_ZDreamerO>
+<DontGimmeFood_ZDreamer>Refuse politely. You cannot accept food from someone who's malnourished.</DontGimmeFood_ZDreamer>
+<GimmeFood_ZDreamer>You never say no to a free meal.</GimmeFood_ZDreamer>
+<GiveThemFoodSurvival_ZDreamer>No, you are the one who's going to share. (Give a survival meal)</GiveThemFoodSurvival_ZDreamer>
+<GiveThemFoodPemmican_ZDreamer>No, you are the one who's going to share. (Give some pemmican)</GiveThemFoodPemmican_ZDreamer>
+
+<EndLineInt3Up_ZDreamerO>That's unexpected. It looks like {Interviewee_nameDef} is really on {Interviewee_possessive} own. Most people would do anything they could to hide such weakness.
+\n\n"I'm glad to make your acquaintance, {Interviewer_nameFull} of {Interviewer_factionName}. I welcome you at my table. My food is your food. Are you hungry?"
+\n\nYou can't help but notice {Interviewee_nameDef}'s sunken cheeks and slumped shoulders. You don't think {Interviewee_pronoun}'s been eating enough recently.
+\n\n</EndLineInt3Up_ZDreamerO>
+
+<DontGimmeFood_ZDreamerO>{Interviewee_nameDef} nods {Interviewee_possessive} head.
+\n\n"As you wish, {Interviewer_nameDef}. I'm sure you have some questions. Not many people dare to travel so you deserve at least a few answers for your efforts. Just remember, this place is the end of the line. There's not much to say about anything here. Myself included."
+\n\n</DontGimmeFood_ZDreamerO>
+<GimmeFood_ZDreamerO>Without looking, {Interviewee_nameDef} points at the wooden shelf with a lone survival meal on it. You'll grab it after you are done talking. Keeping good manners is important.
+\n\nOf course it is possible you've already helped yourself to it. Not very well-mannered if you did, but the host doesn't seem to care.
+\n\n"I'm sure you have some questions, {Interviewer_nameDef}. Not many people dare to travel, so you deserve at least a few answers for your efforts. So ask away. Mind you, I don't have much to say."
+\n\n</GimmeFood_ZDreamerO>
+<GiveThemFood_ZDreamerO>There's another shadow of a smile on {Interviewee_nameDef}'s face.
+\n\n"You're too kind for your own good, {Interviewer_nameDef}. But then if more people where like you, this planet would be better off. I will gladly share meal with you after we're done talking."
+\n\n{Interviewee_pronoun} speaks the words, but they sound hollow to you. There's no heart behind them. {Interviewee_pronoun} doesn't seem dishonest, simply... lifeless.
+\n\n"You look like someone who lives to poke and prod everything around you," {Interviewee_nameDef} makes a weary gesture as if waving {Interviewee_possessive} own words away. "I mean no offence. That's a good thing, this is how people move forward. But you won't find any progress here, {Interviewer_nameDef}. So ask me whatever you want to ask and let's have something to eat."
+\n\n</GiveThemFood_ZDreamerO>
+
+<IntroEnd_ZDreamer>Curiosity killed a cat. Good thing you're not a cat.</IntroEnd_ZDreamer>
+
+</LanguageData>
