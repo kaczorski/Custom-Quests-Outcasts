@@ -26,11 +26,11 @@ ToDo:
 - [x] work out why cannot load my custom maps;
 - [ ] write bit with z-vertigo;
 - [x] dimensional anomaly;
-- [ ] message on entering Z Level (signal on gen?)
+- [x] message on entering Z Level (trap befor self destruct)
 - [x] missing two massive text nodes!
 - [ ] Wallbreaker: give option to retreat;
 - [ ] ZDreamer not attacking. Create a custom hediff to give them berserk?
 - [ ] rat bonus dialog
-- [ ] signals not working;
+- [ ] signals not working from dialogs;
 - [ ] playtest!
 - [ ] write another dialog!
