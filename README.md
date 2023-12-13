@@ -25,7 +25,7 @@ ToDo:
 - [x] work out how to make quest end :D;
 - [x] work out why cannot load my custom maps;
 - [ ] write bit with z-vertigo;
-- [ ] dimensional anomaly;
+- [x] dimensional anomaly;
 - [ ] message on entering Z Level (signal on gen?)
 - [x] missing two massive text nodes!
 - [ ] Wallbreaker: give option to retreat;
