@@ -32,6 +32,7 @@ ToDo:
 - [x] ZDreamer not attacking. Create a custom hediff to give them berserk.
 - [ ] rat bonus dialog
 - [x] error terrain for Z: two error terrains!
+- [ ] add another option when looking into field of red, opened by dreamer dreams on;
 - [ ] add message on arrival explaining that quest is accomplished;
 - [ ] signals not working from dialogs;
 - [ ] playtest!
