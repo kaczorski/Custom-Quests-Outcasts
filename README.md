@@ -31,7 +31,7 @@ ToDo:
 - [ ] Wallbreaker: give option to retreat;
 - [x] ZDreamer not attacking. Create a custom hediff to give them berserk.
 - [ ] rat bonus dialog
-- [ ] error terrain for Z;
+- [x] error terrain for Z: two error terrains!
 - [ ] add message on arrival explaining that quest is accomplished;
 - [ ] signals not working from dialogs;
 - [ ] playtest!
