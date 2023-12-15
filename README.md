@@ -24,7 +24,6 @@ ToDo:
 - [x] check CQF for typos, edit Survivor;
 - [x] work out how to make quest end :D;
 - [x] work out why cannot load my custom maps;
-- [ ] write bit with z-vertigo;
 - [x] dimensional anomaly;
 - [x] message on entering Z Level (trap befor self destruct)
 - [x] missing two massive text nodes!
