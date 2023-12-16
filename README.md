@@ -27,11 +27,11 @@ ToDo:
 - [x] dimensional anomaly;
 - [x] message on entering Z Level (trap befor self destruct)
 - [x] missing two massive text nodes!
-- [ ] Wallbreaker: give option to retreat;
+- [x] Wallbreaker: give option to retreat;
 - [x] ZDreamer not attacking. Create a custom hediff to give them berserk.
-- [ ] rat bonus dialog
+- [x] rat bonus dialog
 - [x] error terrain for Z: two error terrains!
-- [ ] rat hediff;
+- [x] rat hediff;
 - [ ] add message on arrival explaining that quest is accomplished;
 - [ ] signals not working from dialogs;
 - [ ] playtest!
