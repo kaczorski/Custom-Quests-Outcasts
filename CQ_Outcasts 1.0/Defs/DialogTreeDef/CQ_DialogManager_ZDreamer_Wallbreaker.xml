@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <QuestEditor_Library.DialogManagerDef>
+    <defName>CQ_DialogManager_ZDreamer_Wallbreaker</defName>
+    <trees>
+      <li>
+        <tree>CQ_Dialog_ZDreamer_Wallbreaker</tree>
+        <conditions>
+          <li Class="QuestEditor_Library.DialogCondition_Hediff">
+            <targetText>Interviewee</targetText>
+            <hediff>CQ_Wallbreaker_ZDreamer</hediff>
+            <severity>0.1</severity>
+            <needToBeGreater>true</needToBeGreater>
+          </li>
+        </conditions>
+      </li>
+      <li>
+        <tree>CQ_Dialog_ZDreamer_Intro</tree>
+        <conditions />
+      </li>
+    </trees>
+    <tags />
+  </QuestEditor_Library.DialogManagerDef>
+</Defs>
