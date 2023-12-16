@@ -32,7 +32,7 @@ ToDo:
 - [x] rat bonus dialog
 - [x] error terrain for Z: two error terrains!
 - [x] rat hediff;
-- [ ] key in dialogs, test;
+- [x] finish dialogs, test;
 - [ ] add message on arrival explaining that quest is accomplished;
 - [ ] signals not working from dialogs;
 - [ ] playtest!
