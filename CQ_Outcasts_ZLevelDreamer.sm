@@ -1,0 +1,520 @@
+ASMJS[::]56[::]0[::]0[::]10[::]vis[::]html
+:: Zdefs[::]32-384-4
+{Interviewee_labelShort} 	Gogo
+{Interviewee_nameFull}		Bob 'Gogo' Van
+{Interviewee_nameDef}		Gogo
+
+{Interviewee_gender}		male/female
+{Interviewee_factionName}   works?
+
+{Interviewee_pronoun}		he
+{Interviewee_objective}	    him
+{Interviewee_possessive}	his
+
+\n\n 		line break
+
+:: TalkOver_ZDreamer There's nothing more to say.[::]1152-472-0
+\
+
+:: DreamerIgnored_ZDreamer You travelled all this way for nothing. You're not running a shelter for lunatics and failures.[::]1224-344-0
+\
+
+:: choices[::]1160-120-0
+[[Further|DreamerDreamsOn_ZDreamer You need exactly this kind of people in your colony. What an inspiration!]]
+[[Further|DreamerWakesUp_ZDreamer People like that might be useful. You just need to make sure there's no more crazy talk about any levels and dimensions.]]
+[[Further|DreamerIgnored_ZDreamer You travelled all this way for nothing. You're not running a shelter for lunatics and failures.]]
+
+:: DreamerDreamsOnWallsUp Are you flattered? You suppose you should feel flattered.[::]1688-72-0
+\
+
+:: DontGimmeFood_ZDreamer Refuse politely. You cannot accept food from someone who's malnourished.[::]256-200-0
+{Interviewee_nameDef} nods {Interviewee_possessive} head.
+\n\n"As you wish, {Interviewer_nameDef}. I'm sure you have some questions. Not many people dare to travel so you deserve at least a few answers for your efforts. Just remember, this place is the end of the line. There's not much to say about anything here. Myself included."
+\n\n
+[[Further|IntroEnd_ZDreamer Curiosity killed a cat. Good thing you're not a cat.]]
+
+:: IntroEnd_ZDreamer Curiosity killed a cat. Good thing you're not a cat.[::]360-296-0
+[[Further|Loop_ZDreamerAlone]]
+
+:: QuestionCrappyAnswers_ZDreamerRecruited ...do you feel like answering some questions now?[::]1408-592-0
+"Ask me {Interviewer_nameDef} and see for yourself," says {Interviewee_nameDef} with a smile.
+
+:: DreamerWakesUp_ZDreamer People like that might be useful. You just need to make sure there's no more crazy talk about any levels and dimensions.[::]1280-240-0
+Out loud you sum up everything {Interviewee_nameDef} have told you. Both of you understand {Interviewee_pronoun} cannot go on like this for much longer. If raiders, manhunters or mechanoids don't get to {Interviewee_objective} first, {Interviewee_pronoun} will starve to death. You point at the granite doorway. Isn't {Interviewee_pronoun} tired of fighting the world with nothing but stone to defend {Interviewee_possessive} flanks?
+\n\nYou tell {Interviewee_nameDef} there could be a place for {Interviewee_objective} in your colony. An actual bed, good food, people to talk to, to befriend. And no, it won't be a rose garden or some limitless Fourth X Dimension. Life on the rim is challenging enough when standing on your two feet. Run around with your head up in the clouds, and you're bound to crash. Does {Interviewee_pronoun} follow you?
+\n\n{Interviewee_pronoun} follows.
+\n\nDoes {Interviewee_pronoun} want to join you?
+\n\n"Yes. Yes I do. Thank you for your offer," answers {Interviewee_ nameDef}.
+\n\nThen {Interviewee_pronoun} knows what needs to be done. You can't leave behind so much plasteel to waste away or to be plundered by raiders. You hope it's obvious.
+\n\n"Yes." {Interviewee_nameDef} straightens up. There's a new light in {Interviewee_possessive} eyes. "Let's bring those bloody walls down and get out of here! I want to see your place {Interviewer_nameDef} and I hope you have a good cook... Just swear to me they're not serving human flesh."
+\n\nYou answer {Interviewee_objective} with a pleasant smile.
+\n\n
+[[Further|Loop_ZDreamerRecruited You might have a few questions to ask.]]
+
+:: QuestionCornerTorch_ZDreamerRecruited ...why does the only torch here stand in the farthest corner?[::]1408-416-0
+"You leave no stone unturned, do you {Interviewer_nameDef}!" laughs {Interviewee_nameDef}. "You know there are disturbed people on this planet, people who relish in the suffering of others. One of them created a project that made torches and campfires ignite flammables around them. I never experienced it first hand, but I've seen my parents' burn scars."
+\n\nYou want to know the name of this sick individual.
+\n\n"I don't believe in that supersitious Triad-is-listening crap but... Hell, maybe I am a bit superstitious. I'm not going to say their name. And I hope that when the world moves on this Ignition project is buried and forgotten. This is why I love plasteel so much. Unlike shitty steel it's immune to fire."
+\n\nYou agree with {Interviewee_objective} wholeheartedly but...
+\n\n"...that corner looks kind of nice, doesn't it? Like there was a bit more care, bit more thinking behind usual planning. I must say I enjoyed fixing that little stone curb. I tell you, colony built with fire safety in mind is very pleasing to the eye. Especially when people are not afraid to challenge the Triad and combine stone with wood." {Interviewee_nameDef} proudly lifts {Interviewer_possessive} head.
+\n\nThe candle on the reasearch bench makes a tiny crackling sound, drawing your attention. A moth has flown into a flame and was burned into a crisp.
+\n\nCandle. Flame. Wooden research bench.
+\n\n{Interviewee_nameDef} puts a finger to {Interviewer_possessive} lips and you quickly change the subject.
+\n\n
+
+:: LoopBack_ZDreamerAlone Ask another question[::]568-432-0
+\
+
+:: DreamerDreamsOnNewVision_ZDreamer Those walls are your legacy. We cannot destroy them. (Move on)[::]1544-72-0
+\n\nYou're about to get going, but {Interviewee_nameDef} has one last thing to say.
+\n\n"I know I warned you about it, but I think you should check out the farthest wall to the west. You might experience something interesting. Down to earth person would not enjoy it, but you're not down to earth, are you {Interviewer_nameDef}?"
+\n\n
+[[Further|DreamerDreamsOnWallsUp Are you flattered? You suppose you should feel flattered.]]
+
+:: Bay12_ZDreamer Two brothers, Tarn and Zach.[::]1032-120-0
+"I heard those names too... Creators of an entire parallel universe, if you believe that leaked archotech data. A universe where you can dig down and build up as much as you want, and where every day is full of fun," {Interviewee_nameDef} says in a dreamy voice. "But, being from parallel universe, Tarn and Zach have nothing to do with this planet." {Interviewee_possessive} eyes harden as {Interviewee_pronoun} looks at you.
+\n\n"You know nothing about Z Levels and you're a liar, {Interviewer_nameDef}," {Interviewee_pronoun} says with disappointment in {Interviewee_possessive} voice. "I don't want you to loose your mental balance on my property, so use the table if you have to eat. Then pack up and leave. I'm done talking with you."
+\n\n
+[[Further|TalkOver_ZDreamer There's nothing more to say.]]
+
+:: Ludeon_ZDreamer Ludeon Limitless.[::]1032-32-0
+"Ha! They made this planet fit for habitation, no one can dispute that. But their CEO went on record saying fundamental laws of physics make Z Levels impossible in this universe." {Interviewee_nameDef}'s eyes harden as he looks at you.
+\n\n"You know nothing about Z Levels and you're a liar, {Interviewer_nameDef}," {Interviewee_pronoun} says with disappointment in {Interviewee_possessive} voice. "I don't want you to loose your mental balance on my property, so use the table if you have to eat. Then pack up and leave. I'm done talking with you."
+\n\n
+[[Further|TalkOver_ZDreamer There's nothing more to say.]]
+
+:: Kaczorski_ZDreamer Kaczorski's Shambolic Undertaking.[::]1032-208-0
+"Never heard of them," says {Interviewee_nameDef}. "Judging by the name, they could never come up with anything solid." {Interviewee_possessive} eyes harden as {Interviewee_pronoun} looks at you.
+\n\n"You know nothing about Z Levels and you're a liar, {Interviewer_nameDef}," {Interviewee_pronoun} says with disappointment in {Interviewee_possessive} voice. "I don't want you to loose your mental balance on my property, so use the table if you have to eat. Then pack up and leave. I'm done talking with you."
+\n\n
+[[Further|TalkOver_ZDreamer There's nothing more to say.]]
+
+:: QuestionWhyNoLegs_ZDreamerAlone ...what's the story behind peg legs?[::]488-272-0
+"There's not much to say, really," says {Interviewee_nameDef} massaging {Interviewee_possessive} side. "Doctors at the clinic did a really good job. No accidental cuts, no phantom pain. Very neat. I needed money, you see. This is how I built this place."
+\n\n{Interviewee_pronoun} must have been very desperate, since organic limbs don't sell for that much. You also wonder how did {Interviewee_pronoun} afford all this with such a meager payout. Seeing your expression {Interviewee_nameDef} sighs deeply as if {Interviewee_pronoun} was giving up {Interviewee_possessive} last breath.
+\n\n"All the money's gone now," {Interviewee_pronoun} says, looking you straight in the eye and clenching {Interviewee_possessive} fists on the haft of {Interviewee_possessive} breach axe. "I've got nothing left except for my walls. And just so you know {Interviewer_nameDef}, I won't let anyone to knock them down."
+\n\nYou doubt that, maybe because of {Interviewer_possessive} general state or maybe because of the immense exhaustion in {Interviewer_nameDef} eyes.
+
+:: Leave. LeaveSecret_ZDreamer[::]152-936-0
+\
+
+:: Focus on the anomaly. Anomaly_ZDreamer[::]152-736-0
+Driven by what might be a suicidal curiousity, you examine the thing before you.
+\n\nAt first is seems like a floating sphere, covered with thousands of head-sized bumps, its texture that of granite. It's drawing your gaze with the force of a powerful magnet drawing tiny bits of steel. That's what your eyes are, two helpless globes of steel rolling out of your skull and down into maddness.
+\n\nIs this really happening?!
+\n\nThis is exactly what's happening. The sphere morphs into a column, column rising from some impossible dimension, a black hole that's sucking your sense of sight in. Your sight and your sanity.
+\n\n
+[[Further|Tear your eyes away before it's too late! AnomalyDreamerNo_ZDreamer]]
+[[Further|Fall, fall down and let your mind follow your perception. AnomalyDreamerYes_ZDreamer]]
+
+:: Tear your eyes away before it's too late! AnomalyDreamerNo_ZDreamer[::]272-640-0
+With every fibre of your being, with every bit of your willpower you pull, and pull your senses back into yourself!
+\n\n You quickly turn away from the anomaly and take stock. Something is wrong, very wrong. Your eyesight feels weak. Like worn out hands too tired to grasp anything, your perception slips from your fingers you're trying to count. A realization strikes you: you yourself have no idea how many fingers you're holding up.
+\n\nNot just eyes then. Your brain got hit as well.
+\n\nAt least your brain is not damaged so bad as not to know it's been damaged in first place.
+\
+You stumble away from this hellish place. AnomalyDreamerNoEnd_ZDreamer
+
+:: Make sure there's a way out. CheckWayDown_ZDreamer[::]152-632-0
+Looking down makes you queasy, as if you were in a drop pod arcing down towards the ground. Pay more attention to the surface at your feet, and you will simply... slide down, back into the world you know. Probably.
+\n\nAn abstract, and yet somewhat interesting question forms in your mind. What would happen to you if someone - or something - were to destroy any of the walls the tops of which you are currently seeing? The instinct from before gives you a quick and direct answer.
+\n\nYou would be trapped here for ever.
+\n\n
+LoopBackSecret_ZDreamer Continue.
+
+:: EndLineInt3Dwn_ZDreamer What a strange faction name! You introduce yourself.[::]144-128-0
+{Interviewee_nameDef} chuckles at your confusion.
+\n\n"What I meant is that I'm on my own. I've got no kith and no kin, not any more," {Interviewee_pronoun} clears {Interviewee_possessive} throat. "Anyway. I'm glad to make your acquaintance, {Interviewer_nameFull} of {Interviewer_factionName}. I welcome you at my table and my food is your food. Are you hungry?"
+\n\nYou can't help but notice {Interviewee_nameDef}'s sunken cheeks and slumped shoulders. You don't think {Interviewee_pronoun}'s been eating enough recently.
+\n\n
+[[Further|DontGimmeFood_ZDreamer Refuse politely. You cannot accept food from someone who's malnourished.]]
+[[Further|GimmeFood_ZDreamer You never say no to a free meal.]]
+[[Further|GiveThemFood_ZDreamer No, you are the one who's going to share. (Give a survival meal)]]
+
+:: SecretLoop_ZDreamer Shadow of Z[::]40-728-3
+What? Where? How?
+
+You are still alive. You can breathe in and out, your blood is not boiling and your mind is your own. At least for now.
+\n\nPlasteel under your feet feels as solid and reliable as it should, but everywhere else stretches only infinite... strangeness. No, there are a few more familiar spots: plasteel tiles to the east of you. Inaccessible due to their awkward placement, they form a U-shaped pattern. You've seen it before, haven't you? A footprint of those strange plasteel walls would look exactly the same. Does it mean you travelled... climbed... up, and are now standing on top of a wall block?
+\n\nAs ridiculous as it sounds, that seems to be the gist of it. This is no place for any laws-of-physics-abiding creature, and yet here you are.
+\n\nYour attention is being drawn to the thing in front of you, a bluish-glowing anomaly. Ignore it! Ignore it and run from this hellish place while you still can!
+\n\n
+[[Further|Make sure there's a way out. CheckWayDown_ZDreamer]]
+[[Further|Look deeper into the grey abyss instead. AbyssLookOrNot_ZDreamer]]
+[[Further|Focus on the anomaly. Anomaly_ZDreamer]]
+[[Further|Leave. LeaveSecret_ZDreamer]]
+
+:: Main_ZDreamerO ...what's the deal with those strange walls outside?[::]488-184-3
+"Tell me, how good are you with a hammer and a measuring square?" Asks {Interviewee_nameDef}. "Can you put a vent into a wall without knocking that wall down?"
+\n\nYou snort and shake your head. Every child knows that's impossible. {Interviewee_nameDef}'s face brightens up for a moment.
+\n\n
+[[Further|Const8Up_ZDreamer You are confident in your skills.]]
+[[Further|Const8DwnTruth_ZDreamer You are not very good.]]
+[[Further|Const8DwnLie_ZDreamer You are confident in your skills. (Lie)]]
+[[Further| ZVertigo_ZDreamer You want the answer now. You've been to that other place.]]
+
+:: GiveThemFood_ZDreamer No, you are the one who's going to share. (Give a survival meal)[::]256-424-0
+There's another shadow of a smile on {Interviewee_nameDef}'s face.
+\n\n"You're too kind for your own good, {Interviewer_nameDef}. But then if more people where like you, this planet would be better off. I will gladly share meal with you after we're done talking."
+\n\n{Interviewee_pronoun} speaks the words, but they sound hollow to you. There's no heart behind them. {Interviewee_pronoun} doesn't seem dishonest, simply... lifeless.
+\n\n"You look like someone who lives to poke and prod everything around you,"{Interviewee_nameDef} makes a weary gesture as if waving {Interviewee_possessive} own words away. "I mean no offence. That's a good thing, this is how people move forward. But you won't find any progress here, {Interviewer_nameDef}. So ask me whatever you want to ask and let's have something to eat."
+\n\n
+[[Further|IntroEnd_ZDreamer Curiosity killed a cat. Good thing you're not a cat.]]
+
+:: Const8Up_ZDreamer You are confident in your skills.[::]696-32-0
+You take a deep breath and kick off with a detailed explanation on how to make five even-sized stone blocks look like dozens when putting up a wall. {Interviewee_nameDef}'s condescending smirk quickly fades when you reveal the full scope of your method, a method that allows you to accomplish this mundane task in a record time and without a single mistake. Next, you broach the subject of planning and explain how to design a sprawling base with nothing else but hundreds upon hundreds of white measuring squares. At this point {Interviewee_nameDef} seems a little dizzy, so you kindly pause to ask if {Interviewee_pronoun}'s all right.
+\n\n{Interviewee_pronoun} is all right.
+\n\nAnd so you continue, talking at lenght about freezer optimizations, battlefield repairs and smoothing techniques. Time flies by. You finish off with a flair, giving a quick overview of Fluffy's Breakdowns project, a simple and yet revolutionary idea also known as "maintain your components before it's too late, moron!"
+\n\n"Good, very good!" {Interviewee_nameDef} says clapping {Interviewee_possessive} hands. "It's always a pleasure listening to someone who knows their trade. I wasn't half bad myself... I'm the one who build all this, back when I still cared. By Randy, I hate how skills go when you don't use them."
+\n\nYou keep a stony face but you feel more than a little uneasy. Randy. Not a name to be called upon lightly.
+\n\n"I see you're not a superstitious type," {Interviewee_nameDef} says. "And I guess you're not one of those who give up and run when Shifts happen. Yes, sometimes they wreak havoc. But sometimes they bring us truly blessed projects, like the one you just mentioned. If you ask me {Interviewer_nameDef}, Shifts are what make life on this planet worth living."
+\n\n"I can tell you all about these walls outside, but answer me this first. Have you ever heard about Z Levels project?"
+\n\n
+[[Further|IKnowAboutZ_ZDreamer Of course, you know all about it. It's a great project, one in a league of it's own.]]
+[[Further|IDontKnowAboutZ_ZDreamer You are not sure.]]
+
+:: Const8DwnLie_ZDreamer You are confident in your skills. (Lie)[::]704-288-0
+You take a deep breath and kick off with a detailed explanation on how to make five even-sized stone blocks look like dozens when putting up a wall. {Interviewee_nameDef}'s condescending smirk quickly grows as you explain your method. This is not working out very well, so you switch the subject to the planning of bases. It turns out to be disaster. You completely muddle the distinction between white squares used for marking doors and white squares used for marking walls. They cannot be identical, can they? At this point {Interviewee_nameDef} seems to be loosing whatever was left of {Interviewee_possessive} interest.
+\n\nYou know you can salvage this.
+\n\nAnd so you continue, discussing how walls four blocks thick help with freezer optimizations and how to smoothen dirt. Time drags terribly. Finally, you commiserate with {Interviewee_nameDef}, one old hand to another, about the fact that unparalleled SOS2 was left in the dust of history by its creators. It's such a shame you can't go on building those orbital bases anymore. You used to build one whenever a Shift made it possibile.
+\n\n{Interviewee_nameDef} shakes {Interviewee_pronoun} head.
+\n\n"I've got no problem with people lacking skills. I used to be quite good and look at me now. But I've got problem with liars {Interviewer_nameDef}," {Interviewee_pronoun} says with disappointment in {Interviewee_possessive} voice. "I don't want you to loose your mental balance on my property, so use the table if you have to eat. Then pack up and leave. I'm done talking with you."
+\n\n"One last thing. If you engage in some mindful reading and look beyond steam obscuring the view, you will discover Thain and Cattington are still going strong with their project. So don't go around spouting nonsense."
+\n\n
+[[Further|Social15Down_ZDreamer Can you salvage this?]]
+[[Further|Social15Up_ZDreamer You can salvage this!]]
+
+:: Social15Up_ZDreamer You can salvage this![::]800-248-0
+Looking {Interviewer_nameDef} straight in the eye you say you are sorry you lied to {Interviewer_objective}. You did it only because you are ashamed of your pathetic skills.
+\n\nThen you fall silent and wait for {Interviewer_objective} to make {Interviewer_possessive} decision. You don't break eye contact for a second, letting your sincerity speak for itself. There's no deception, there's no manipulation. You're a straightforward person, just like {Interviewer_objective}.
+\n\nSilence stretches between the two of you.
+\n\n"Eh!"{Interviewer_nameDef} waves {Interviewer_possessive} axe in a non-threatening way. "There's nothing to be ashamed of. You will get better. Now, where were we?"
+\n\n"I can tell you all about these walls outside, but first answer me this. Have you ever heard about Z Levels project?"
+\n\n
+[[Further|IKnowAboutZ_ZDreamer Of course, you know all about it. It's a great project, one in a league of it's own.]]
+[[Further|IDontKnowAboutZ_ZDreamer You are not sure.]]
+
+:: ZDreamListenOn_ZDreamer Keep listening.[::]928-224-0
+[[Further|ZDream_ZDreamer Ari Sher, Ram Rod and Taran Chuk.]]
+
+:: Const8DwnTruth_ZDreamer You are not very good.[::]696-136-0
+"There's nothing wrong with that, {Interviewer_nameDef}. I was simply curious. Keep building those stone chess tables and you'll be a legend in no time. Uranium's even better, if you have some laying around," {Interviewee_nameDef} says. {Interviewee_possessive} words are friendly, but delivery is passionless. "I was quite good once, and all I did was build walls night and day."
+\n\n"I can tell you about ones in the yard outside, but answer me this first. Have you ever heard about Z Levels project?"
+\n\n
+[[Further|IKnowAboutZ_ZDreamer Of course, you know all about it. It's a great project, one in a league of it's own.]]
+[[Further|IDontKnowAboutZ_ZDreamer You are not sure.]]
+
+:: DreamerDreamsOn_ZDreamer You need exactly this kind of people in your colony. What an inspiration![::]1280-64-0
+Out loud you sum up everything {Interviewee_nameDef} have told you, making no effort to hide your admiration. {Interviewee_nameDef} is bewildered. Both of you understand {Interviewee_pronoun} cannot go on like this for much longer. If raiders, manhunters or mechanoids don't get to {Interviewee_objective} first, {Interviewee_pronoun} will starve to death. You point at the granite doorway. Isn't {Interviewee_pronoun} tired of fighting the world with nothing but stone to defend {Interviewee_possessive} flanks?
+\n\nYou tell {Interviewee_nameDef} there could be a place for {Interviewee_objective} in your colony. An actual bed, people to talk to, to befriend. There will be good Shifts and bad Shifts, breakdowns and parties, marriages and funerals. To live on the rim you have to embrace its beauty and terror. The sight of the planet from a low orbit and the unforgiving vacuum of space. The...
+"Giant ancient spiders and forests of shimmershrooms!" {Interviewee_nameDef} cuts in, laughing.
+Shivering, you agree. All of that and more. And even if Z Levels never return, both of you will cherish their memory.
+\n\n"I'm with you all the way {Interviewer_nameDef}," says {Interviewee_ nameDef} wiping {Interviewee_possessive} eyes. "You said nothing about the food though... Is your cook any good? Just swear to me they're not serving human flesh."
+\n\nYou answer {Interviewee_objective} with an enigmatic smile. Beauty and terror.
+\n\nNow it's {Interviewee_nameDef}'s turn to shiver.
+\n\n"One last thing before we go. My walls. Let's take them down. It's a shame to leave so much plasteel behind."
+\n\n
+[[Further|Loop_ZDreamerRecruited You might have a few questions to ask.]]
+
+:: Alegacy - Const17[::]120-32-0
+You take a deep breath and kick off with a detailed explanation on how to make five even-sized stone blocks look like dozens when putting up a wall. {Interviewee_possessive} condescending smirk quickly fades when you reveal the full scope of your method, a method that allows you to accomplish this mundane task in a record time and without a single mistake. Next, you broach the subject of planning and explain how to design a sprawling base with nothing else but hundreds upon hundreds of white measuring squares. At this point {Interviewee_nameDef} seems a little dizzy, so you kindly pause to ask if {Interviewee_pronoun}'s all right.
+\n\n"Yes, yes! By all that's holy keep going, me good sir!" {Interviewee_pronoun} says, wiping off {Interviewee_possessive} sweaty brow.
+\n\n And so you indulge {Interviewee_objective}, talking at lenght about freezer optimizations, battlefield repairs and smoothing techniques. {Interviewee_nameDef} is clearly impressed but at same time {Interviewee_pronoun}'s growing more restless, {Interviewee_possessive} new found respect not allowing {Interviewee_objective} to interrupt. So you finish off with a flair, giving a quick overview of Fluffy's Breakdown Protocols, a simple and yet revolutionary idea also known as "maintain your components before it's too late, moron!"
+\n\n{Interviewee_nameDef} has tears in his eyes.
+\n\n"Finally, after all this time! A pawn after me own heart!" {Interviewee_pronoun} makes a tremendous effort to master {Interviewee_possessive} emotions and calms down. Relatively speaking. "Tell me, good {Interviewer_nameDef}. What'ya recon I'm building yonder?" {Interviewee_pronoun} gestures towards {Interviewee_possessive} work outside. Now {Interviewee_pronoun} knows your name!
+\n\nYou answer quickly and with confidence. At first glance these walls look like an unfinished monument, but they are in fact roof supports. Here your confidence falters. Run-of-the-mill columns would do the same job and at much lower expense. So maybe it's some kind of solution to drop-pod attacks? Unless...
+\n\n"Ha! I can see it in ya blinkers, ya got it! Mine walls are meant to carry floors and more walls on top of them. Yes! I, me good sir, am building UP. I want to build walls with walkways on top of 'em, and staircases and balconies and bridges! Hell, ya know them pawns buildin' spaceships? Happens all over the place these days. But imagine, just imagine building a tower-" Suddenly {Interviewee_possessive} shoulders slump and {Interviewee_nameDef} sighs deeply, deflating. "Don'tcha give me that look. I know towers not meant to be on this godforsaken, cannibal crawlin', polluted pit of a rimworld. I know that now. But I tried. I... tried."
+\n\n
+
+:: Alegacy - intro[::]32-32-0
+"What d'ya want stranger? Can't ya see I'm busy?!"
+\n\nStranger? You did nothing to warrant such rudeness. Nothing... yet. {Interviewee_nameDef}'s eyes are unfocused, staring beyond you and this miserable place. {Interviewee_pronoun} slowly clenches and unclenches {Interviewee_possessive} worn out fists and starts muttering to {Interviewee_objective}self. You are being completely ignored and are free to take in your surroundings. Judging from the state of the room {Interviewee_nameDef} is busy waiting for a solid case of food poisoning. This place is a mess and the owner with {Interviewee_possessive} sunken eyes and rugged clothes looks like a beggar. And yet {Interviewee_pronoun} somehow scraped out enough coin to build those structures outside. Uranium, plasteel, silver and even gold, wasting away in the middle of nowhere... Even so, it's impolite to tear down someone else's work without saying a few words first. You open your mouth, but {Interviewee_nameDef} interrupts you. {Interviewee_pronoun}'s not so inattentive after all.
+\n\n{Interviewee_possesive} voice is torturing your ears like a rusty saw.
+\n\n"Expecting me to pull out me spare stool and share me table with ya? Tough luck stranger!" {Interviewee_ nameDef} hawks and spits on {Interviewee_possesive} own floor. "I'ma busy feller, so if ya plottin' some lootin' and plunderin' let's get to that part, eh?"
+\n\n{Interviewee_pronoun} certainly sounds confident for an unarmed pawn, but there's an undercurrent of resignation and tiredness in {Interviewee_possesive} voice. Deathwish maybe? Not an uncommon thing on this planet. But since you have all the time in the world, you do your best to open {Interviewee_objective} up in a socially acceptable manner. And you succeed, sort of.
+\n\n"Look stranger! If ya want to talk, tell me something about yoursel' first. How good are ya with hammer and planning square? Can ya put a vent into a wall without knockin' that wall down?"
+\n\nYou snort and shake your head. Every child knows that's impossible. {Interviewee_nameDef}'s face brightens up for a moment but then the moment's gone. The lone torch flickers in the corner tinting yours and {Interviewee_possesive} hands red. {Interviewee_pronoun} is waiting for your answer.
+\n\n
+
+:: Social15Down_ZDreamer Can you salvage this?[::]1040-424-0
+Yes, you said some half truths and quarter truths, but you wouldn't call yourself a liar. You simply have a complicated relationship with facts. And not all facts, mind you. Just some of them, sometimes. Besides that, you're an absolutely honest person with a very inqusitive mind. It would be terrible if {Interviewer_nameDef} never shared all of his {Interviewer_possessive} secrets with you.
+\n\nYou suddenly realise {Interviewer_nameDef} is paying attention only because {Interviewer_pronoun}'s unsure whether you're going to attack {Interviewer_objective}. If you were hoping to recruit {Interviewer_nameDef}, you have to accept you'll never achieve that goal.
+\n\n Not with words, that is.
+\n\n
+[[Further|TalkOver_ZDreamer There's nothing more to say.]]
+
+:: QuestionCornerTorch_ZDreamerAlone ...why does the only torch here stand in the farthest corner?[::]488-432-0
+"I like it there," says {Interviewee_nameDef}.
+\n\nOh no, you didn't ask this question to be satisfied with such a lousy answer. This setup is far too unusual to simply ignore. Stone floor and stone walls, while the rest of the house is built of wood? (Granite door jambs don't count; their purpose is to fortify the enterance). And what about that barrel? Is it full of water? Is {Interviewee_pronoun} afraid a torch could... start a fire? That's a ridiculous idea, but Shifts happen and the next one could be about torches and campfires igniting everything around them.
+\n\nYou launch a barrage of questions at {Interviewee_nameDef}. {Interviewee_pronoun} knows something!
+\n\n"Look, it's nothing. This is how people build where I'm from."
+\n\n{Interviewee_pronoun} refuses to tell you where {Interviewee_pronoun}'s from and whether {Interviewee_possessive} people are still alive. In fact, {Interviewee_pronoun} refuses to talk to you at all. But you notice {Interviewee_objective} giving the stony corner an uneasy, sideways look.
+\n\nThe torch sputters ominously.
+\n\n
+
+:: QuestionWhyNoFamily_ZDreamerAlone ...why would you live alone?[::]488-352-0
+"I don't need other people and other people don't need me," says {Interviewee_nameDef}.
+\n\nThen {Interviewee_pronoun} looks away and falls silent.
+\n\nTime passes. {Interviewee_pronoun}'s still looking away and still keeping silent.
+\n\nYou guess {interviewee_pronoun} has made {interviewee_pronoun} point.
+\n\n
+
+:: Dialog names[::]32-240-4
+Dream of Z
+
+CQ_DialogManager_IntroZDreamer
+CQ_Dialog_IntroZDreamer
+
+:: GimmeFood_ZDreamer You never say no to a free meal.[::]256-312-0
+Without a word {Interviewee_nameDef} points at the wooden shelf with a lone survival meal on it. You'll grab it after you are done talking. Keeping good manners is important.
+\n\n"I'm sure you have some questions, {Interviewer_nameDef}. Not many people dare to travel, so you deserve at least a few answers for your efforts. So ask away. Mind you, I don't have much to say."
+\n\n
+[[Further|IntroEnd_ZDreamer Curiosity killed a cat. Good thing you're not a cat.]]
+
+:: QuestionCrappyAnswers_ZDreamerAlone ...you don't really feel like answering my questions, do you?[::]488-592-0
+"No," says {Interviewee_nameDef}.
+\n\nAnd that's that. Well, at least {Interviewee_pronoun}'s honest.
+
+:: Loop_ZDreamerAlone[::]384-400-3
+You think about your questions.
+
+[[Further|Main_ZDreamerO ...what's the deal with those strange walls outside?]]
+[[Further|QuestionWhyNoLegs_ZDreamerAlone ...what's the story behind peg legs?]]
+[[Further|QuestionWhyNoFamily_ZDreamerAlone ...why would you live alone?]]
+[[Further|QuestionCornerTorch_ZDreamerAlone ...why does the only torch here stand in the farthest corner?]]
+[[Further|QuestionTalkingThrumbos_ZDreamerAlone ...thrumbos. Is it true they can speak but choose not to?\n\n(This is getting silly, but now the thought is in your head)]]
+[[Further|QuestionCrappyAnswers_ZDreamerAlone ...you don't really feel like answering my questions, do you?]]
+
+:: EndLineInt3Up_ZDreamer This planet breaks people. You introduce yourself.[::]144-504-0
+That's unexpected. It looks like {Interviewee_nameDef} is really on {Interviewee_possessive} own. Most people would do anything they could to hide such weakness.
+\n\n"I'm glad to make your acquaintance, {Interviewer_nameFull} of {Interviewee_factionName}. I welcome you at my table. My food is your food. Are you hungry?"
+\n\nYou can't help but notice {Interviewee_nameDef}'s sunken cheeks and slumped shoulders. You don't think {Interviewee_pronoun}'s been eating enough recently.
+\n\
+[[Further|DontGimmeFood_ZDreamer Refuse politely. You cannot accept food from someone who's malnourished.]]
+[[Further|GimmeFood_ZDreamer You never say no to a free meal.]]
+[[Further|GiveThemFood_ZDreamer No, you are the one who's going to share. (Give a survival meal)]]
+
+:: Fall, fall down and let your mind follow your perception. AnomalyDreamerYes_ZDreamer[::]272-736-0
+The sensation of losing your sight is deeply unsettling, but you refuse to give in to fear.
+\n\nYou are not leaping blindly into the dark - you know somewhere out there is a shadow of what could be. A fleeting vision of a world different and yet so familiar. High walls with walkways, overlooking plains and forests on one side and bustling settlements on the other. Multi storey houses, towers, networks of underground tunnels linking bases with fortified outposts. And deeper still, mine shafts plumbing darkness, corridors and halls like living roots, spreading light where no light belongs.
+\n\nInstead of crumbling, your consciousness expands. What you're seeing is too grand, too complex to comprehend but the core idea of it is crystal clear. For a moment you hold it in your mind, a dream come true. And then, like a dream, it is gone.
+\n\nBut not without a trace. A shadow of shadow remains, for you to carry away from this place and to keep in you mind.
+\n\nFor a time.
+\n\n
+You step back, overwhelmed by wonder. AnomalyDreamerYes_ZDreamer
+
+:: Look deeper into the grey abyss instead. AbyssLookOrNot_ZDreamer[::]152-840-0
+A piece of half-remembered folk wisdom floats into your mind, something about dangers of doing what you're about to do. This might be a really bad idea. Are you sure you want to proceed?
+
+AbyssLookYes_ZDreamer Yes, you boldly gaze into the unknown.
+	A vision of terror burns itself into your mind.
+	A vision of beauty fills your mind with bliss.
+AbyssLookNo_ZDreamer No, you wisely avert your eyes.
+
+:: Spoiler_ZDreamer[::]40-896-3
+{Interviewee_nameFull} looks up at you. In {Interviewee_possessive} jet black eyes glimmers sadness of ages.
+\n\n"Thou hast cleaned this pitiful place and for this I would share with thee my wisdom. Words unspoken, paths not taken - a sage rat knows them well! But beware, humanling. With great knowledge oft comes great saddness-"
+\n\nYou stare at {Interviewee_objective} in a quiet shock. {Interviewee_nameDef} coughs.
+\n\n"OK, let me put it to you straight. I can replay the whole conversation for you, but if you don't want to shatter the fragile balance of this quest, don't talk to me about legacies."
+\n\n{Interviewee_pronoun} moves {Interviewee_possessive} whiskers up and down.
+\n\n"Don't worry if you don't understand. Maybe you didn't talk to the guy yet, and instead decided to do some toilet cleaning first. Who knows? Humans are strange."
+\n\n"And by Randy I beg you, don't recruit me. I'm hungry, I'm missing a kidney and I don't want to be a part of swarm defending your home."
+
+You talk with the rat. (Spoilers) Spoiler_ZDreamerSpoilersYes
+You're not going to talk with a hallucination! (Spoilers disabled) Spoiler_ZDreamerSpoilersNo
+You need time to process this. Spoiler_ZDreamerSpoilersMaybe
+
+:: QuestionTalkingThrumbos_ZDreamerRecruited ...thrumbos. Is it true they can speak but choose not to? (This is getting silly, but now you have to know)[::]1408-504-0
+"Oh, I'm sure they can speak. Have you ever heard the sound they make when they are hurt? When they die?" {Interviewee_nameDef}'s face contorts in pain. "You can almost make out words, it's heartbreaking. They are the kindest creatures on the rim and maybe the rest of us is just too damn cruel to hear them speak."
+\n\n"There's this story I heard long time ago. Another trio of crashlanded people, another colony. Completely clueless, had no idea what they were doing. So afraid, they kept building spike traps all over the perimeter and had to sleep on the floor. A few caravans arrived, made some sweet deals and left without a single word of advice. That colony was doomed to fail."
+\n\n"And then a single thrumbo turned up. The animal guy approached it with a stupid smile on his face and... tamed it just like that!" {Interviewee_pronoun} flicks {Interviewee_possessive} fingers. "Tamed? More like that thrumbo joined them out of pity. Bastards kept sending the poor thing against every threat and with barely any support. In the end, shotguns and maces brought it down for good. Colony followed soon after."
+\n\n"What I'm trying to say is maybe it's not just about cruelty. Maybe we're too selfish for thrumbos to talk with us..." {Interviewee_nameDef} suddenly lights up. "What if this is why they keep wandering in and out of settlements? Because they are looking, endlessly looking for someone who's worthy?"
+\n\nThat's an interesting theory, but you have more questions. What does {Interviewee_pronoun} know about a mythical gallatross?
+\n\n{Interviewee_nameDef} groans. "Please {Interviewer_nameDef}, enough!"
+\n\n
+
+:: IDontKnowAboutZ_ZDreamer You are not sure.[::]856-128-0
+"That's understandable," {Interviewee_nameDef} says. "There are tens of thousands projects out there and we experience only a fraction that gets manifested during Shifts. It seems to me you lived your entire life without questioning why you cannot dig down and reach tunnels where insects live."
+\n\nIs {Interviewee_pronoun} crazy? Why would you try to get any closer to those bloody things? It's bad enough with them trying to get closer to you!
+\n\n{Interviewee_nameDef} lets out a little laugh. "I see spelunking is not your thing. But there's so much hidden down there... Veins of metals, component clusters, wondrous biomes to explore. Animals and plants unseen on the surface!"
+\n\nYes, you know. Wonders like ancient giant spiders imagined by VE Corp, a true dread waiting to happen. Maybe they're already here?
+\n\n"It's theoretically possible to get down into those depths, but their verticality is an illusion. Any verticality on this planet is an illusion. {Interviewer_nameDef}, have you ever tried to climb a wall? To climb a mountain? Can you imagine how the world would look from up there?" {Interviewee_nameDef} shakes {Interviewee_possessive} weapon as if {Interviewee_pronoun} wanted to strike the very fabric of existence.
+\n\nThe concept of climbing is so strange you need some time to process it.
+\n\n"Z Levels project by Ari Sher, Ram Rod and Taran Chuk was nothing less than a shot at achieving a true verticality, at transforming this quasi-height of ours into an actual third dimension."
+\n\n
+[[Further|ZDreamListenOn_ZDreamer Keep listening.]]
+
+:: IKnowAboutZ_ZDreamer Of course, you know all about it. It's a great project, one in a league of it's own.[::]864-32-0
+\n\n"I couldn't agree more," says {Interviewee_nameDef}. "And who's responsible for it?"
+\n\nYou want to know what's up with all the questions.
+\n\n"I'm willing to talk with everyone. Transhumanists, body purists, sanguophage worshippers. Even cannibals, assuming they don't want to make me into a hat. There's only one kind of people I refuse to deal with and I'm sure you can guess who they are."
+\n\n"You said you know who came up with Z Level project. Well then?"
+\n\n
+[[Further|Ludeon_ZDreamer Ludeon Limitless.]]
+[[Further|Bay12_ZDreamer Two brothers, Tarn and Zach.]]
+[[Further|Kaczorski_ZDreamer Kaczorski's Shambolic Undertaking.]]
+[[Further|ZDream_ZDreamer Ari Sher, Ram Rod and Taran Chuk.]]
+
+:: ZDream_ZDreamer Ari Sher, Ram Rod and Taran Chuk.[::]1032-312-0
+{Interviewee_nameDef}'s face radiates the same reverence you've seen worshippers of the Triad display when they speak or hear the Three Names.
+\n\n"Yes... I was just a child when a Shift brought Z Levels on our settlement. People were shocked and confused. Nothing worked the way it used to. You had to concentrate with all your might on every single thing you did - or you'd stand frozen in place, paralyzed. And the mountains. By Randy, the mountains were terryfying. They loomed over us, stretching out and up into the sky."
+\n\n"We tried to build upwards, even if only to get an advantage against raiders. But it didn't last. Time went... wrong. There were moments when everything would stop, only to rush forward again. Like everyone else, I was terrified, cursing that Shift and losing my hope. And to top it all off, I tripped and fell from a third floor to the ground."
+\n\n{Interviewee_nameDef} leans closer and looks you in the eyes. "Just think about it. I've fallen down, down through the air! I cannot describe the freedom I felt in that moment. I was limitless, certain that this chaos could be mastered, that we could carve a place for us in the third dimension."
+\n\nYou are pretty sure you know what happened next.
+\n\n"Ari Sher, Ram Rod and Taran Chuk never finished their project and the next Shift wiped out Z Levels from existence. I don't blame them for moving on and may the Triad leave them in peace. But I was young and dense like a slab of uranium. I decided I would break through, back into that world of freedom."
+\n\n"I never did. I've put everything I had into my work and in the end I didn't even manage to stack one wall on top of another. These walls out there are not stronger or cheaper than those made out of plasteel. Exactly the opposite in fact. Plus... Maybe you already experienced something or maybe you didn't {Interviewer_nameDef}, but for your own good don't go snooping around my walls. Something unpleasant might happen to you."
+\n\n"It wasn't a threat, just a friendly warning.
+\n\n"I've got nothing more to say."
+\n\n
+[[Further|choices]]
+
+:: Loop_ZDreamerRecruited You might have a few questions to ask.[::]1360-136-3
+One loop for both outcomes. Ask all questions and choose your outcome, depending on their hediffs.
+
+[[Further|QuestionCrappyAnswers_ZDreamerRecruited ...do you feel like answering some questions now?]]
+[[Further|QuestionWhyNoLegs_ZDreamerRecruited ...what's the story behind peg legs?]]
+[[Further|QuestionWhyNoFamily_ZDreamerRecruited ...why would you live alone?]]
+[[Further|QuestionCornerTorch_ZDreamerRecruited ...why does the only torch here stand in the farthest corner?]]
+[[Further|QuestionTalkingThrumbos_ZDreamerRecruited ...thrumbos. Is it true they can speak but choose not to? (This is getting silly, but now you have to know)]]
+
+[[Further|DreamerDreamsOnNewVision_ZDreamer Those walls are your legacy. We cannot destroy them. (Move on)]]
+[[Further|DreamerDreamsOnWallsDown_ZDreamer Plasteel's always in short supply. Thank you, friend. (Move on)]]
+
+[[Further|DreamerWakesUpWallsDown_ZDreamer Let's put that axe of yours to work. (Move on)]]
+
+:: QuestionWhyNoLegs_ZDreamerRecruited ...what's the story behind peg legs?[::]1408-240-0
+"I sold the originals. And a kidney too," says {Interviewee_nameDef} patting {Interviewee_possessive} side. "You know how shitty deconstruction is. I was building and knocking my walls down, burning plasteel like wood. I needed all the money I could get." You wonder what's the full story, since organic limbs don't sell for that much. {Interviewee_pronoun} reads your expression and clicks {Interviewee_possessive} tongue.
+\n\n"Remember when Potozky announced his brand new trading system?" You nod your head. You're not sure about that particular event, but Potozky and his powerful VE Corp came up with more projects than you could count.
+\n\n"Another Shift was in the air and when it happened, the system went live. It was brilliant at first. Prices fluctuated all over the region and long distance trading was suddenly worth it. But then the usual tweakery started and everything went to hell. Fortunes were made and lost in blink of an eye! Flesh prices in the nearest town skyrocketed and I jumped at the opportunity."
+\n\n"Speaking of jumping, do you recon you could afford a pair of decent bionics for your new recruit?" {Interviewee_nameDef} asks with a twinkle in {Interviewee_possessive} eye. You make a noncommittal grunt and wave at {Interviewee_objective} to continue.
+\n\n"Anyway. I cashed in and bolted as the place turned... ulgy. Doctors at the clinic did a really good job. No accidental cuts, no phantom pain. I could move and fight without a problem after I finished throwing up. Still, it's not an easy thing to be rid of your own two legs. But I didn't do it just for the money."
+\n\n"The thing is, Potozky didn't create that overhaul by himself. He partnered up with a legend. None other than Taran Chuk, one of the three madmen who once tried to achieve Z Levels. And now Taran Chuk was involved in a project that made my flesh worth thousands. It was like a sign, a call to prove my commitment. I was foolish of course, foolish beyond words." {Interviewee_nameDef} sighs deeply, but there's a smile on {Interviewee_possessive} lips.
+\n\n
+
+:: DreamerDreamsOnWallsDown_ZDreamer Plasteel's always in short supply. Thank you, friend. (Move on)[::]1544-168-0
+\
+
+:: DreamerWakesUpWallsDown_ZDreamer Let's put that axe of yours to work. (Move on)[::]1544-272-0
+\
+
+:: QuestionWhyNoFamily_ZDreamerRecruited ...why would you live alone?[::]1408-328-0
+"I'm surprised you need to ask after listening to my story," says {Interviewee_nameDef}. "When people of my settlement understood what I was about, they stripped me naked and kicked me out. After I got the same treatment at the next place, I tried to be smart and kept my mouth shut. It was no use. My work was too costly, too useless to fund."
+\n\n"So I ended up on the road, taking odd jobs and hunting for prescious deposits. It was a rough life and I couldn't make any progress. Then another Shift brought me my lucky break." {Interviewee_pronoun} pats {Interviewee_possessive} peg leg smiling wistfully. "I built this place and devoted everything to my project.
+\n\n"Did I miss other people? Sometimes, yes. But my obsession kept me going. When I finally realised Z Levels were beyond my ability, I felt like... like I reached the end of the line. I had nothing to strive for, nothing to live for."
+\n\n"Thank you {Interviewee_nameDef} for changing that."
+\n\n
+
+:: Aggro_ZDreamer[::]32-488-3
+The outcast grips {Interviewee_possessive} massive uranium breach axe so tightly {Interviewee_possessive} fists are shaking. {Interviewee_possessive} eyes burn with unbridled rage.
+\n\n"What kind of person are you?!" {Interviewee_pronoun} yells in your face. "You destroy my life's work and you think I have anything to say to you?"
+\n\n{Interviewee_pronoun} suddenly relaxes and deeply breathes out. You don't like the look on {Interviewee_possessive} face - it's the same look raiders when they decide to throw their lives away. You have a few seconds to decide what happens next.
+\n\n
+Fight_ZDreamer You won't be intimidated by a lowly outcast.
+DontFight_ZDreamer Maybe you made a mistake. Retreat.
+
+:: Intro_ZDreamer Dream of Z[::]32-312-3
+"Greetings stranger. I appreciate you didn't try to tear down my life's work without talking to me first." {Interviewee_pronoun} looks at you, smiling weakly. In {Interviewee_possessive} calloused hands {Interviewee_pronoun} tightly grips a massive uranium breach axe. {Interviewee_possessive} legs were replaced by crude wooden pegs and, judging by the state of the wood, it happened long time ago.
+\n\n"My name's {Interviewee_nameFull} of the End of the Line."
+\n\n
+[[Further|EndLineInt3Dwn_ZDreamer What a strange faction name! You introduce yourself.]]
+[[Further|EndLineInt3Up_ZDreamer This planet breaks people. You introduce yourself.]]
+[[Further|Rat1_ZDreamer Share your conversation with the illusory talking rat.]]
+
+:: Rat1_ZDreamer Share your conversation with the illusory talking rat.[::]144-312-0
+{Interviewee_nameDef} looks at you cautiously.
+\n\n"You cleaned my outhouse before talking to me?"
+\n\nYou wave the question away. {Interviewee_pronoun}'s focusing on unimportant details.
+\n\n"No, I've never met a talking rat inside or outside of an outhouse, or any house for that matter. But carry on believing whatever you like."
+\n\n{Interviewee_pronoun}'s missing the point again. You're not saying that there WAS a talking rat. Only that your hallucination of such a rat was very vivid and almost too convincing. Seeing {Interviewee_nameDef}'s expression you sigh and break mid-sentence.
+\n\nMaybe another opportunity to discuss this subject will present itself later on.
+\n\n
+Rat1Back_ZDreamer Go be a reasonable person again.
+
+:: Rat2_ZDreamer Talking rat apparition is not random.[::]576-512-0
+"No, not that again!" {Interviewee_nameDef} says giving you a pained look.
+\n\nYou ignore it and press on. You might have used some psychite-based substances in the past but you've never suffered a hallucination like this. Come to think of it, you never hallucinated in your whole life. You're simply concerned about your own mental health and maybe about an opportunity lost. What if you dismissed a completely honest, flesh-and-blood rat sage?
+\n\n{Interviewee_nameDef}, as a frequent visitor of this particular outhouse, must know the truth.
+\n\n{Interviewee_nameDef} swears {Interviewee_pronoun} told you the truth and nothing but the truth. No prophetic words in the dark. No rat sages. A mundane outhouse.
+\n\nThe thing is, you don't believe {Interviewee_objective}. You'll have to wait for another chance to break through this wall of deception.
+\n\n
+Rat1Back_ZDreamer Go be a reasonable person again.
+
+:: QuestionTalkingThrumbos_ZDreamerAlone ...thrumbos. Is it true they can speak but choose not to?\n\n(This is getting silly, but now the thought is in your head)[::]488-512-0
+"I guess I asked for this,"{Interviewee_nameDef} shakes {Interviewee_possessive} head. "Yes, I think they can speak. But one needs to earn their trust and I'm sure they would never say a word to someone who tamed and killed one of their kind. That's a single most rotten thing a person can do, if you ask me."
+\n\n"Please {Interviewer_nameDef}, don't ask me," {Interviewee_pronoun} adds quickly. "No more random questions, all right?"
+\
+[[Further|Rat2_ZDreamer Talking rat apparition is not random.]]
+
+:: Accused_ZDreamer[::]832-584-0
+Accused_ZDreamer You're not letting this go. {Interviewee_pronoun} must be responsible.
+
+"I told you already!" Spittle flies from {Interviewee_nameDef}'s mouth. "This has nothing to do with you, {Interviewer_nameDef}. Don't push me!"
+
+And just like that, you have only two options left. Either way the conversation is over.
+
+You choose violence. Push_ZDreamer
+You choose silence. DontPush_ZDreamer
+
+:: AccusedTooSmart_ZDreamer[::]824-488-0
+AccusedTooSmart_ZDreamer You have a hunch {Interviewee_pronoun}'s not telling you everything.
+
+{Interviewee_nameDef} readies {Interviewee_possessive} weapon... and lowers it, shaking {Interviewee_possessive} head.
+\n\n"Trust me {Interviewer_nameDef}, this thing poses no threat to people like you. Don't ask me how I know."
+\n\nYou follow {Interviewer_possessive} wish and instead of asking you inquire. {Interviewee_nameDef} looks down on {Interviewee_possessive} axe with yearning eyes.
+\n\n"You need to understand what it means to be an outcast. You're in the middle of things, stuff is constantly happening to you and around you. You told me your name, {Interviewer_nameDef} of {Interviewer_factionName} remember? Some would say Beyonder is pulling your strings from above, pushing you to survive against all odds."
+\n\nBefore you can voice your opinion, {Interviewee_nameDef} continues.
+\n\n"I am the opposite. Forgotten and ignored. Useless. Around here nothing happens."
+\n\n"When I was a kid, my parents used to tell me that the planet hates freeloaders and eats them alive," {Interviewee_pronoun} smiles fondly. "Stories about ground turning to boiling blood and about gore-drenched hunter stalking disobedient children. I couldn't get enough. Ironic, that."
+\n\n"It's no longer make-believe for me. I know. There's a force out there that's constantly thinning the herd, wiping out the ones who are the weakest, the ones who straggle behind. That red swamp is coming for me and only for me." This is not a call for help, but a statement of a fact. 
+\n\n"You have nothing to worry about, {Interviewer_nameDef}."
+\n\n
+[[Further|WhatDream_ZDreamer]]
+AccusedTooSmartA_ZDreamer Loneliness and broken hopes can drive one mad. Ask about {Interviewer_possessive} unfulfilled dream.
+AccusedTooSmartB_ZDreamer Thrilling theory! Ask about {Interviewer_possessive} unfulfilled dream.
+AccusedTooSmartEnd_ZDreamer Leave without a word. (Conversation ends)
+
+:: WhatDream_ZDreamer[::]824-376-0
+WhatDream_ZDreamer Let's move on. You want to hear more about {Interviewee_possessive} dream.
+
+{Interviewee_nameDef} visibly relaxes and loosens {Interviewee_possessive} grip on the breach axe.
+\n\n"Are you familiar with Z Levels project by Ari Sher, Ram Rod and Taran Chuk?"
+
+[[Further|IDontKnowAboutZ_ZDreamer You are not sure.]]
+
+IKnowAboutZ_ZDreamer Of course, you know all about it. It's a great project, one in a league of it's own.
+[[Further|ZDream_ZDreamer Ari Sher, Ram Rod and Taran Chuk.]]
+
+:: ZVertigo_ZDreamer You want the answer now. You've been to that other place.[::]720-416-0
+{Interviewee_nameDef} whistles through {Interviewee_possessive} teeth and gives you a little bow.
+\n\n"You are a born explorer, {Interviewer_nameDef}. I respect that. Most people would never walk into that spot by the wall. Your eyes probably still feel out of sorts but it will pass, just give it a few more hours. The most important thing is you didn't try to look farther, into... red. And if you did, you must have nerves of plasteel to hold up so well."
+\n\nYou remind {Interviewee_objective} that {Interviewee_pronoun} still haven't answered your question. {Interviewee_nameDef} scratches {Interviewee_possessive} head.
+\n\n"I simply don't know. I used to think I was the one who made that place, who forced it into being. It certainly wasn't there when I started building my walls. All my life I dreamed about breaking out from this limited space of ours," {Interviewee_pronoun} practically spits out the last words, "and going up there gave me strength to carry on. I would stare into that anomaly every single day and instead of chaos I'd see my dream, my dream come true. But in the end I was only deluding myself."
+\n\n"Over and over again I tried to create another spot like that. All I did was waste plasteel. Now I understand this other place happened next to me, not because of me. There's beauty out there if one's crazy enough to look for it, but there's also terrible... wrongness. Just thinking about it makes my skin crawl."
+\n\nThe field of red. You want to know if it's spreading.
+\n\n"I don't think so, {Interviewer_nameDef}. I've spent a lot of time up there and I never felt like it was creeping closer. My work, my walls have nothing to do with it." {Interviewee_nameDef} gives you a determined look. If you try to put the blame on {Interviewee_objective}, {Interviewee_pronoun}'s not going to meekly accept it.
+\n\n
+[[Further|WhatDream_ZDreamer]]
+WhatDream_ZDreamer Let's move on. You want to hear more about {Interviewee_possessive} dream.
+[[Further|AccusedTooSmart_ZDreamer]]
+Accused_ZDreamer You have a hunch {Interviewee_pronoun}'s not telling you everything.
+[[Further|Accused_ZDreamer]]
+Accused_ZDreamer You're not letting this go. {Interviewee_pronoun} must be responsible!
+
+:: Rat3_ZDreamerWakes Let's address the talking rat illusion.[::]1504-552-0
+Req: RatHediff + DreamerWakesUp
+
+"No," says {Interviewee_nameDef}. You look at {Interviewee_objective} with surprise since you said nothing yet.
+\n\n"You asked about thrumbos, so I figured another rat question was incoming. The answer is no. There are no talking rats here or anywhere else."
+\n\nThere's absolute conviction written all over {Interviewee_nameDef}'s face. You conceal a sigh of relief. Everything's all right with the world and with you.
+
+:: Rat3_ZDreamerDreams  Let's deal with the talking rat once and for all.[::]1505-468-0
+Req: RatHediff + DreamerDreamsOn
+
+"Yes," says {Interviewee_nameDef}. You look at {Interviewee_objective} with surprise since you said nothing yet.
+\n\n"You asked about thrumbos, so I figured another rat question was incoming. The answer is yes. I've run into a talking rat in my outhouse."
+\n\nAll this time you were being shamelessly gaslighted! And by someone who values honesty above all. You demand a thorough explanation.
+\n\n"What can I say? A few years back I decided to tidy up the place and when that rat jumped out talking about wisdom sharing I run away. It must've slipped out after me. I was afraid I was losing my mind. But now, after listening to you... Hell, I believe in talking thrumbos, so talking rats aren't that much of a stretch!"
+\n\nYou're happy that {Interviewee_pronoun}'s made peace with the maddness of this world but it's a shame the two of you lost a chance to partake in the wisdom of a rat sage.
+\n\n"Maybe we did, or maybe we didn't?" Says {Interviewee_nameDef} with a smile on {Interviewee_possessive} face. "Maybe there's one last rat sage in these parts?"
+\n\n
+
