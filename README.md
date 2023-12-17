@@ -36,4 +36,5 @@ ToDo:
 - [x] add message on arrival explaining that quest is accomplished;
 - [x] signals not working from dialogs;
 - [x] playtest!
+- [ ] make sure quest is firing the way it should;
 - [ ] write another dialog!
