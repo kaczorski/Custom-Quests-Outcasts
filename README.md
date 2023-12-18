@@ -38,4 +38,5 @@ ToDo:
 - [x] playtest!
 - [ ] CQF major update: rework Wallbreaker assignement (cut out hediff.comp), possibly add berserk as a consequence when dreamerDreams and walls broken!
 - [ ] make sure quest is firing the way it should;
+- [ ] add message when walls destroyed, avoid spam by sending messages to a devtrap that selfdrestructs after first signal;
 - [ ] write another dialog!
