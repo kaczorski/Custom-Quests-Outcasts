@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <QuestEditor_Library.DialogTreeDef>
+    <defName>CQ_Dialog_ZDreamer_Spoiler</defName>
+    <title>Cleaner's reward</title>
+    <requireNonHostile>true</requireNonHostile>
+    <dialogReportKey>DefaultDialogKey</dialogReportKey>
+    <curIndex>1</curIndex>
+    <nodeMoulds>
+      <li>
+        <key>0</key>
+        <value>
+          <text>Spoiler_ZDreamerO</text>
+          <index>0</index>
+          <subNodeIndexs />
+          <options>
+            <li>
+              <text>Spoiler_ZDreamerSpoilersYes</text>
+              <hideWhenDisabled>false</hideWhenDisabled>
+              <results>
+                <li>
+                  <resultName>Undefined</resultName>
+                  <actions>
+                    <li Class="QuestEditor_Library.CQFAction_RemoveDialogManager">
+                      <targetsText>
+                        <li>Interviewee</li>
+                      </targetsText>
+                    </li>
+                    <li Class="QuestEditor_Library.CQFAction_StartDialog">
+                      <dialog>CQ_DialogManager_ZDreamer_Intro</dialog>
+                      <interviewerText>Interviewer</interviewerText>
+                      <intervieeText>Interviewee</intervieeText>
+                    </li>
+                  </actions>
+                </li>
+              </results>
+            </li>
+            <li>
+              <text>Spoiler_ZDreamerSpoilersNo</text>
+              <hideWhenDisabled>false</hideWhenDisabled>
+              <results>
+                <li>
+                  <resultName>Undefined</resultName>
+                  <actions>
+                    <li Class="QuestEditor_Library.CQFAction_RemoveDialogManager">
+                      <targetsText>
+                        <li>Interviewee</li>
+                      </targetsText>
+                    </li>
+                    <li Class="QuestEditor_Library.CQFAction_SentSignal">
+                      <signal>No.Spoilers</signal>
+                      <signalIsOnlyValidInPart>false</signalIsOnlyValidInPart>
+                    </li>
+                    <li Class="QuestEditor_Library.CQFAction_Hediff">
+                      <targetsText>
+                        <li>Interviewer</li>
+                      </targetsText>
+                      <hediff>CQ_ZDreamerNoRats</hediff>
+                      <severity>1</severity>
+                    </li>
+                    <li Class="QuestEditor_Library.CQFAction_Message">
+                      <message>The hallucination fades away.</message>
+                      <type>PositiveEvent</type>
+                    </li>
+                  </actions>
+                </li>
+              </results>
+            </li>
+            <li>
+              <text>Spoiler_ZDreamerSpoilersMaybe</text>
+              <hideWhenDisabled>false</hideWhenDisabled>
+              <results>
+                <li>
+                  <resultName>Undefined</resultName>
+                </li>
+              </results>
+            </li>
+          </options>
+        </value>
+      </li>
+    </nodeMoulds>
+  </QuestEditor_Library.DialogTreeDef>
+</Defs>

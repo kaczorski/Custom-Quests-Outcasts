@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <QuestEditor_Library.DialogManagerDef>
+    <defName>CQ_DialogManager_ZDreamer_Spoiler</defName>
+    <trees>
+      <li>
+        <tree>CQ_Dialog_ZDreamer_Spoiler</tree>
+        <conditions />
+      </li>
+    </trees>
+    <tags />
+  </QuestEditor_Library.DialogManagerDef>
+</Defs>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ThoughtDef>
+        <defName>CQ_ZDreamerAwake</defName>
+        <workerClass>ThoughtWorker_Hediff</workerClass>
+        <hediff>CQ_ZDreamerAwake</hediff>
+        <validWhileDespawned>true</validWhileDespawned>
+        <!-- <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter> -->
+        <stages>
+            <li>
+                <label>full of gratitude</label>
+                <description>I was given a second chance and I'm not going to waste it.</description>
+                <baseMoodEffect>6</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+	<ThoughtDef>
+        <defName>CQ_ZDreamerVertigo</defName>
+        <workerClass>ThoughtWorker_Hediff</workerClass>
+        <hediff>CQ_ZDreamerVertigo</hediff>
+        <validWhileDespawned>true</validWhileDespawned>
+        <!-- <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter> -->
+        <stages>
+            <li>
+                <label>Z confusion</label>
+                <description>My eyes are rolling away. Help!</description>
+                <baseMoodEffect>-8</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+	
+	<ThoughtDef>
+        <defName>CQ_ZDreamerWonder</defName>
+        <workerClass>ThoughtWorker_Hediff</workerClass>
+        <hediff>CQ_ZDreamerWonder</hediff>
+        <validWhileDespawned>true</validWhileDespawned>
+        <!-- <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter> -->
+        <stages>
+            <li>
+                <label>Z wonder</label>
+                <description>There's so much beauty in this world.</description>
+                <baseMoodEffect>3</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+	<ThoughtDef>
+        <defName>CQ_ZDreamerTerror</defName>
+		<durationDays>0.05</durationDays>
+        <stackLimit>1</stackLimit>
+        <validWhileDespawned>true</validWhileDespawned>
+        <!-- <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter> -->
+        <stages>
+            <li>
+                <label>it saw me!</label>
+                <description>There's a red-eyed thing out there, not Hussar, not Uhlan, it's something much worse and it's eyes are not eyes, they are doorways into a slaughterhouse. There's a red-eyed thing out there and it saw me!</description>
+                <baseMoodEffect>-36</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+</Defs>
