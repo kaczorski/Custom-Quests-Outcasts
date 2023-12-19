@@ -1,5 +1,6 @@
 # Custom Quests: Outcasts
 **Rimworld + Dialogs = Story**
+<br>**Dependancies:** Custom Quest Framework, Vanilla Expanded Framework, Vanilla Furniture Expanded - Props and Decor and Erin's Decorations
 <br>https://docs.google.com/document/d/1QO50EwJ9FUI3FxHBxKowBkidPd9Cov5GzEyvC7XTpuo/edit?usp=sharing (about designing dialog and interactions)
 
 ToDo:
