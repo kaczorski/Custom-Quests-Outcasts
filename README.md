@@ -4,8 +4,8 @@
 **Dependancies:**
 - [Custom Quest Framework](https://steamcommunity.com/workshop/filedetails/?id=2978572782);
 - [Vanilla Expanded Framework](https://steamcommunity.com/workshop/filedetails/?id=2023507013);
-- [Vanilla Furniture Expanded](https://steamcommunity.com/workshop/filedetails/?id=2102143149);
-- [Props and Decor and Erin's Decorations](https://steamcommunity.com/workshop/filedetails/?id=2463358089)
+- [Vanilla Furniture Expanded - Props and Decor](https://steamcommunity.com/workshop/filedetails/?id=2102143149);
+- [Erin's Decorations](https://steamcommunity.com/workshop/filedetails/?id=2463358089)
   
 [GoogleDoc about designing dialog and interactions in CQF](https://docs.google.com/document/d/1QO50EwJ9FUI3FxHBxKowBkidPd9Cov5GzEyvC7XTpuo/edit?usp=sharing) 
 
