@@ -1,4 +1,4 @@
-# Custom Quests: Outcasts
+# [Custom Quests: Outcasts](https://steamcommunity.com/sharedfiles/filedetails/?id=3115358432)
 **Rimworld + Dialogs = Story**
 
 **Dependancies:**
