@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<RuleText>
-  <ruleName>QC_Outcasts_Desc</ruleName>
-  <rulesFiles IsNull="True" />
-  <stringRules>
-    <li>questDescription -&gt;  A small homestead has been spotted some distance from here. Places like that are usually inhabited by desperate outcasts, people too broken or too crazy to live among others. Still, it might be worth investigating. There's a tiny chance you will find someone worth recruiting.</li>
-  </stringRules>
-</RuleText>
