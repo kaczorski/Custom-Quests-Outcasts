@@ -36,6 +36,7 @@ ToDo:
 - [x] add message on arrival explaining that quest is accomplished;
 - [x] signals not working from dialogs;
 - [x] playtest!
-- [ ] CQF major update: rework Wallbreaker assignement (cut out hediff.comp), possibly add berserk as a consequence when dreamerDreams and walls broken!
-- [ ] add message when walls destroyed, avoid spam by sending messages to a devtrap that selfdrestructs after first signal;
+- [x] CQF major update: rework Wallbreaker assignement (cut out hediff.comp);
+- [x] add message when walls destroyed, avoid spam by sending messages to a devtrap that selfdrestructs after first signal;
+- [ ] add berserk as a consequence when dreamerDreams and walls broken?
 - [ ] write another dialog!
