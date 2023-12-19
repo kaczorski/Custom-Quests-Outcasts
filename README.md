@@ -1,6 +1,5 @@
 # Custom Quests: Outcasts
-**Rimworld + Dialogs = Story**
-<br>
+**Rimworld + Dialogs = Story**<br>
 **Dependancies:**
 - Custom Quest Framework;
 - Vanilla Expanded Framework;
