@@ -2,9 +2,9 @@
 **Rimworld + Dialogs = Story**<br>
 **Dependancies:**
 - [Custom Quest Framework](https://steamcommunity.com/workshop/filedetails/?id=2978572782);
-- Vanilla Expanded Framework;
-- Vanilla Furniture Expanded;
-- Props and Decor and Erin's Decorations
+- [Vanilla Expanded Framework](https://steamcommunity.com/workshop/filedetails/?id=2023507013);
+- [Vanilla Furniture Expanded](https://steamcommunity.com/workshop/filedetails/?id=2102143149);
+- [Props and Decor and Erin's Decorations](https://steamcommunity.com/workshop/filedetails/?id=2463358089)
   
 <br>https://docs.google.com/document/d/1QO50EwJ9FUI3FxHBxKowBkidPd9Cov5GzEyvC7XTpuo/edit?usp=sharing (about designing dialog and interactions)
 
