@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<RuleText>
-  <ruleName>QC_Outcasts_Name</ruleName>
-  <rulesFiles />
-  <stringRules>
-    <li>questName -&gt; Rumour about outcasts</li>
-  </stringRules>
-</RuleText>
