@@ -38,5 +38,5 @@ ToDo:
 - [x] playtest!
 - [x] CQF major update: rework Wallbreaker assignement (cut out hediff.comp);
 - [x] add message when walls destroyed, avoid spam by sending messages to a devtrap that selfdrestructs after first signal;
-- [ ] add berserk as a consequence when dreamerDreams and walls broken?
+- [ ] add berserk as a consequence when dreamerDreams and walls deconstructed (signal from interaction)?
 - [ ] write another dialog!
