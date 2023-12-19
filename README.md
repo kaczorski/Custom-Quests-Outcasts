@@ -47,4 +47,4 @@ ToDo:
 - [x] add message when walls destroyed, avoid spam by sending messages to a devtrap that selfdrestructs after first signal;
 - [ ] look into creating map variants and blacklisting biomes. At the moment: cold biomes > no heating inside. Heating inside > stupid in tropical. BUT the dialog! Crap. No campfire inside, but wooden stuff in tropical, for the sake of learning new feature. Double walls in cold;
 - [ ] add berserk as a consequence when dreamerDreams and walls deconstructed (signal from interaction)?
-- [ ] write another dialog!
+- [ ] write next dialog: in search of deaging machine!
