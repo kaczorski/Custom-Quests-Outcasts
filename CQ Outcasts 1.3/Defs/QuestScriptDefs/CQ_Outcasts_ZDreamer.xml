@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <QuestScriptDef>
+    <root Class="RimWorld.QuestGen.QuestNode_Sequence">
+      <nodes>
+        <li Class="QuestEditor_Library.QuestNode_RandomCustomMap">
+          <datas>
+            <li>
+              <key>Outcasts_ZDreamerMap</key>
+              <value>1</value>
+            </li>
+          </datas>
+          <buffer>10</buffer>
+          <bufferMin>20</bufferMin>
+          <siteIconPath>Things/Outcasts</siteIconPath>
+          <expandingIconPath>Things/Outcasts</expandingIconPath>
+          <storeAs>ZDreamer</storeAs>
+          <faction>CQ_Outcasts</faction>
+          <distance>
+            <min>10</min>
+            <max>20</max>
+          </distance>
+          <blacklist />
+        </li>
+        <li Class="RimWorld.QuestGen.QuestNode_Letter">
+          <inSignal>ZDreamer.MapGenerated</inSignal>
+          <letterDef>PositiveEvent</letterDef>
+          <label>Quest completed</label>
+          <text>You braved the wildreness and arrived at your destination. What happens next is entirely up to you.</text>
+        </li>
+        <li Class="RimWorld.QuestGen.QuestNode_Signal">
+          <inSignal>ZDreamer.MapGenerated</inSignal>
+          <node Class="RimWorld.QuestGen.QuestNode_End">
+            <outcome>Success</outcome>
+          </node>
+        </li>
+        <li Class="QuestEditor_Library.QuestNode_GameUnique" />
+      </nodes>
+    </root>
+    <rootSelectionWeight>0.05</rootSelectionWeight>
+    <rootMinPoints>0</rootMinPoints>
+    <rootMinProgressScore>0</rootMinProgressScore>
+    <rootIncreasesPopulation>False</rootIncreasesPopulation>
+    <minRefireDays>0</minRefireDays>
+    <decreeSelectionWeight>0</decreeSelectionWeight>
+    <questDescriptionRules>
+      <rulesStrings>
+        <li>questDescription -&gt;  A small homestead has been spotted some distance from here. Places like that are usually inhabited by desperate outcasts, people too broken or too crazy to live among others. Still, it might be worth investigating. There's a tiny chance you will find someone worth recruiting.</li>
+      </rulesStrings>
+      <rulesFiles />
+      <rulesRaw IsNull="True" />
+      <include IsNull="True" />
+    </questDescriptionRules>
+    <questNameRules>
+      <rulesStrings>
+        <li>questName -&gt; Rumour about outcasts</li>
+      </rulesStrings>
+      <rulesFiles />
+      <rulesRaw IsNull="True" />
+      <include IsNull="True" />
+    </questNameRules>
+    <autoAccept>True</autoAccept>
+    <hideOnCleanup>False</hideOnCleanup>
+    <expireDaysRange>
+      <min>-1</min>
+      <max>-1</max>
+    </expireDaysRange>
+    <nameMustBeUnique>False</nameMustBeUnique>
+    <defaultChallengeRating>-1</defaultChallengeRating>
+    <defaultHidden>False</defaultHidden>
+    <isRootSpecial>True</isRootSpecial>
+    <canGiveRoyalFavor>False</canGiveRoyalFavor>
+    <hideInvolvedFactionsInfo>False</hideInvolvedFactionsInfo>
+    <affectedByPopulation>False</affectedByPopulation>
+    <affectedByPoints>True</affectedByPoints>
+    <defaultCharity>False</defaultCharity>
+    <sendAvailableLetter>True</sendAvailableLetter>
+    <epic>False</epic>
+    <endOnColonyMove>True</endOnColonyMove>
+    <defName>CQ_Outcasts_ZDreamer</defName>
+    <ignoreConfigErrors>False</ignoreConfigErrors>
+    <ignoreIllegalLabelCharacterConfigError>False</ignoreIllegalLabelCharacterConfigError>
+  </QuestScriptDef>
+</Defs>

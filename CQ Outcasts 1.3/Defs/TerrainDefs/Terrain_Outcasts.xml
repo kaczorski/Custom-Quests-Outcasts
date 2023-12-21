@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <TerrainDef ParentName="FloorBase">
+    <defName>CQ_Error</defName>
+    <label>tHis-shOUld-nOt-bE</label>
+    <description>...</description>
+    <texturePath>Things/RedField</texturePath>
+	<designationCategory />
+    <isPaintable>true</isPaintable>
+    <statBases>
+      <Beauty>-100</Beauty>
+    </statBases>
+	<pathCost>50</pathCost>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WaterDeepBase">
+    <defName>CQ_Blackness</defName>
+    <label>Impassable impossible greyness, a space beyond the space!</label>
+    <renderPrecedence>395</renderPrecedence>
+	<texturePath>Things/Blackness</texturePath>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WaterDeepBase">
+    <defName>CQ_Reddness</defName>
+    <label>?</label>
+    <renderPrecedence>395</renderPrecedence>
+	<texturePath>Things/SmallError</texturePath>
+  </TerrainDef>
+  
+</Defs>

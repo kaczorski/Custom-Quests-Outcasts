@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+[PAWN_nameDef]
+[PAWN_possessive]
+[PAWN_pronoun]
+[PAWN_objective]
+-->
+<Defs>
+ 
+<!-- Childhood -->
+ 
+  <BackstoryDef>
+    <defName>ZDreamer_UnrulyChild</defName>	
+	<slot>Childhood</slot> 
+	<spawnCategories>
+	    <li>Outcasts_ZDreamer_Childhood</li>
+	</spawnCategories>
+    <title>unruly child</title>
+    <titleShort>unruly child</titleShort>
+    <baseDesc>Instead of learning how to grow crops and tend to cattle, [PAWN_nameDef] preferred to sow mischief. [PAWN_pronoun] got into one fight after another and refused to change [PAWN_possessive] wicked ways. When a disastrous Shift struck, there was no love lost for [PAWN_nameDef] among [PAWN_possessive] people. The intense dislike for the farmwork stayed with [PAWN_objective] for the rest of [PAWN_possessive] life.</baseDesc>
+    <skillGains>
+        <li>
+           <key>Melee</key>
+           <value>5</value>
+        </li>
+    </skillGains>
+    <forcedTraits>
+        <Tough>0</Tough>
+    </forcedTraits>
+	<workDisables>PlantWork, Animals</workDisables>
+  </BackstoryDef>
+  
+  <BackstoryDef>
+    <defName>ZDreamer_SpookyChild</defName>	
+	<slot>Childhood</slot> 
+	<spawnCategories>
+	    <li>Outcasts_ZDreamer_Childhood</li>
+	</spawnCategories>
+    <title>spooky child</title>
+    <titleShort>spooky child</titleShort>
+    <baseDesc>[PAWN_nameDef]'s parents forced [PAWN_objective] to obey by stuffing [PAWN_possessive] head with terrifying stories. It worked too well. [PAWN_nameDef] learned what was required of [PAWN_objective], but with time fear gave way to fascination. [PAWN_pronoun] started researching tales of terror, especially stories about dreaded Man in Red. [PAWN_nameDef]'s creepy interests alienated [PAWN_objective] from the rest of [PAWN_possessive] community long before a disaster struck.</baseDesc>
+    <skillGains>
+        <li>
+           <key>Plants</key>
+           <value>3</value>
+        </li>
+        <li>
+            <key>Animals</key>
+            <value>3</value>
+        </li>
+	    <li>
+           <key>Intellectual</key>
+           <value>5</value>
+		</li>
+        <li>
+           <key>Social</key>
+           <value>-5</value>
+        </li>
+    </skillGains>
+    <forcedTraits>
+        <TooSmart>0</TooSmart>
+    </forcedTraits>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>ZDreamer_ObsessedChild</defName>	
+	<slot>Childhood</slot> 
+	<spawnCategories>
+	    <li>Outcasts_ZDreamer_Childhood</li>
+	</spawnCategories>
+    <title>obsessed child</title>
+    <titleShort>obsessed child</titleShort>
+    <baseDesc>[PAWN_nameDef] was expected to help on [PAWN_possessive] family's farm, but as the years went by [PAWN_pronoun] became fascinated with making, not growing things. [PAWN_possessive] harmless side projects developed into a desperate pursuit of perfection. What's worse, [PAWN_nameDef]'s favourite material was steel and [PAWN_possessive] parents - fire survivors - hated that their child wanted to be a smith. [PAWN_nameDef] depressive mood made [PAWN_possessive] situation even more difficult.</baseDesc>
+    <skillGains>
+        <li>
+           <key>Construction</key>
+           <value>3</value>
+        </li>
+        <li>
+            <key>Crafting</key>
+            <value>3</value>
+        </li>
+	    <li>
+           <key>Artistic</key>
+           <value>3</value>
+		</li>
+    </skillGains>
+    <forcedTraits>
+        <TorturedArtist>0</TorturedArtist>
+    </forcedTraits>
+  </BackstoryDef>
+
+<!-- Adulthood -->
+
+  <BackstoryDef>
+    <defName>ZDreamer_Adulthood_VagrantLabourer</defName>
+    <slot>Adulthood</slot>	
+	<spawnCategories>
+		<li>Outcasts_ZDreamer_Adulthood</li>
+	</spawnCategories>
+    <title>vagrant labourer</title>
+    <titleShort>labourer</titleShort>
+    <baseDesc>Forced to travel from settlement to settlement in order to make silver, [PAWN_nameDef] became a very profficient builder and miner. It was a hard life among hard people and [PAWN_pronoun] had to learn how to fight for [PAWN_objective]self. Somewhere along the line, [PAWN_possessive] original directness soured into a much rougher attitude.</baseDesc>
+    <skillGains>
+        <li>
+            <key>Melee</key>
+            <value>3</value>
+        </li>      
+	    <li>
+            <key>Construction</key>
+            <value>5</value>
+        </li>
+        <li>
+            <key>Mining</key>
+            <value>5</value>
+        </li>
+    </skillGains>
+    <forcedTraits>
+        <Abrasive>0</Abrasive>
+    </forcedTraits>
+  </BackstoryDef>
+  
+    <BackstoryDef>
+    <defName>ZDreamer_Adulthood_AsceticLoner</defName>
+    <slot>Adulthood</slot>	
+	<spawnCategories>
+		<li>Outcasts_ZDreamer_Adulthood</li>
+	</spawnCategories>
+    <title>ascetic loner</title>
+    <titleShort>loner</titleShort>
+    <baseDesc>Always needing more silver, [PAWN_nameDef] decided to radically cut [PAWN_possessive] expenses. In time [PAWN_pronoun] became indifferent to harsh living conditions and looked for work only when out of resources. As a consequence, [PAWN_nameDef]'s social skills took a massive hit.</baseDesc>
+    <skillGains>
+        <li>
+            <key>Melee</key>
+            <value>1</value>
+        </li>      
+	    <li>
+            <key>Construction</key>
+            <value>7</value>
+        </li>
+        <li>
+            <key>Mining</key>
+            <value>3</value>
+        </li>
+	    <li>
+            <key>Social</key>
+            <value>-5</value>
+        </li>
+    </skillGains>
+    <forcedTraits>
+        <Ascetic>0</Ascetic>
+    </forcedTraits>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>ZDreamer_Adulthood_ObsessedBuilder</defName>
+    <slot>Adulthood</slot>	
+	<spawnCategories>
+		<li>Outcasts_ZDreamer_Adulthood</li>
+	</spawnCategories>
+    <title>obsessed builder</title>
+    <titleShort>builder</titleShort>
+    <baseDesc>Travelling from place to place in search of work, [PAWN_nameDef] stumbled across a kindered soul who became passionate about [PAWN_possessive] goals. They travelled together for a long time and, as they scraped for plasteel and fought side by side, their friendship grew into something more. But years of vagrant lifestyle took their toll on [PAWN_nameDef]'s partner. Forced to choose between love and [PAWN_possessive] obsession, [PAWN_nameDef] chose the latter.</baseDesc>
+    <skillGains>
+        <li>
+            <key>Melee</key>
+            <value>3</value>
+        </li>      
+	    <li>
+            <key>Construction</key>
+            <value>5</value>
+        </li>
+        <li>
+            <key>Mining</key>
+            <value>3</value>
+        </li>
+	    <li>
+            <key>Social</key>
+            <value>3</value>
+        </li>
+    </skillGains>
+  </BackstoryDef>
+
+</Defs>

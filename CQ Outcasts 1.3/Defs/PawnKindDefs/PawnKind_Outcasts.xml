@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+    <PawnKindDef Name="Outcasts_Base" Abstract="True">
+        <race>Human</race>
+        <combatPower>45</combatPower>
+        <initialWillRange>1~5</initialWillRange>
+        <initialResistanceRange>1~20</initialResistanceRange>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="Outcasts_Base">
+        <defName>Outcasts_ZDreamer</defName>
+        <label>obsessed builder</label>
+		<!-- <nameMaker>Outcasts_PersonNamer</nameMaker> -->
+        <defaultFactionType>CQ_Outcasts</defaultFactionType>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                <li>Outcasts_ZDreamer_Childhood</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                <li>Outcasts_ZDreamer_Adulthood</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <minGenerationAge>30</minGenerationAge>
+        <maxGenerationAge>45</maxGenerationAge>
+        <isFighter>false</isFighter>
+        <gearHealthRange>0.8~2.0</gearHealthRange>
+        <apparelTags>
+            <li>IndustrialBasic</li>
+        </apparelTags>
+        <weaponTags>
+            <li>NeolithicMeleeDestructive</li>
+        </weaponTags>
+        <weaponMoney>300~500</weaponMoney>
+        <apparelMoney>400~600</apparelMoney>
+        <apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
+        <requiredWorkTags>
+            <li>Violent</li>
+            <li>ManualDumb</li>
+            <li>ManualSkilled</li>
+        </requiredWorkTags>
+        <disallowedTraits>		
+            <li>Cannibal</li>
+            <li>Wimp</li>
+            <li>Gourmand</li>
+        </disallowedTraits>
+        <disallowedTraitsWithDegree>
+            <Industriousness>-2</Industriousness>
+        </disallowedTraitsWithDegree>
+		<skills>
+            <li>
+                <skill>Intellectual</skill>
+                <range>5~20</range>
+            </li>
+        </skills>
+    </PawnKindDef>
+
+</Defs>
